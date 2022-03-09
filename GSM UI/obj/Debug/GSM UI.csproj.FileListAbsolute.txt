@@ -1,0 +1,16 @@
+C:\Users\Posod\source\repos\GSM UI\GSM UI\bin\Debug\GSM UI.exe.config
+C:\Users\Posod\source\repos\GSM UI\GSM UI\bin\Debug\GSM UI.exe
+C:\Users\Posod\source\repos\GSM UI\GSM UI\bin\Debug\GSM UI.pdb
+C:\Users\Posod\source\repos\GSM UI\GSM UI\bin\Debug\MindFusion.Common.dll
+C:\Users\Posod\source\repos\GSM UI\GSM UI\bin\Debug\MindFusion.Licensing.dll
+C:\Users\Posod\source\repos\GSM UI\GSM UI\bin\Debug\MindFusion.Svg.dll
+C:\Users\Posod\source\repos\GSM UI\GSM UI\bin\Debug\MindFusion.UI.WinForms.dll
+C:\Users\Posod\source\repos\GSM UI\GSM UI\bin\Debug\MindFusion.UI.WinForms.xml
+C:\Users\Posod\source\repos\GSM UI\GSM UI\obj\Debug\GSM UI.csproj.AssemblyReference.cache
+C:\Users\Posod\source\repos\GSM UI\GSM UI\obj\Debug\GSM_UI.Form1.resources
+C:\Users\Posod\source\repos\GSM UI\GSM UI\obj\Debug\GSM_UI.Properties.Resources.resources
+C:\Users\Posod\source\repos\GSM UI\GSM UI\obj\Debug\GSM UI.csproj.GenerateResource.cache
+C:\Users\Posod\source\repos\GSM UI\GSM UI\obj\Debug\GSM UI.csproj.CoreCompileInputs.cache
+C:\Users\Posod\source\repos\GSM UI\GSM UI\obj\Debug\GSM UI.csproj.CopyComplete
+C:\Users\Posod\source\repos\GSM UI\GSM UI\obj\Debug\GSM UI.exe
+C:\Users\Posod\source\repos\GSM UI\GSM UI\obj\Debug\GSM UI.pdb

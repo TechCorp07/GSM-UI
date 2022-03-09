@@ -1,0 +1,3344 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MindFusion.UI.WinForms</name>
+    </assembly>
+    <members>
+        <member name="T:MindFusion.UI.WinForms.DrawEventHandler">
+            <summary>
+            Specifies the signature of drawing event handlers.
+            </summary>
+            <param name="source">
+            The source objects that raises the event.
+            </param>
+            <param name="e">
+            The event arguments.
+            </param>
+        </member>
+        <member name="T:MindFusion.UI.WinForms.TitleBarButton">
+            <summary>
+            Button that can be added to DockControl object.
+            </summary>
+        </member>
+        <member name="M:MindFusion.UI.WinForms.TitleBarButton.#ctor">
+            <summary>
+            Creates default title bar button
+            </summary>
+        </member>
+        <member name="M:MindFusion.UI.WinForms.TitleBarButton.Equals(System.Object)">
+            <summary>
+            Checks for equality.
+            </summary>
+            <param name="obj">
+            The object to be compared to this instance.
+            </param>
+            <returns>
+            true if obj is equal to this otherwise returns false.
+            </returns>
+        </member>
+        <member name="M:MindFusion.UI.WinForms.TitleBarButton.GetHashCode">
+            <summary>
+            Calculates hash code.
+            </summary>
+            <returns>
+            Hash code of instance.
+            </returns>
+        </member>
+        <member name="E:MindFusion.UI.WinForms.TitleBarButton.OnClick">
+            <summary>
+            Raised when the button is clicked.
+            </summary>
+        </member>
+        <member name="E:MindFusion.UI.WinForms.TitleBarButton.Draw">
+            <summary>
+            Raised when the button is drawn.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.WinForms.TitleBarButton.ButtonBrush">
+            <summary>
+            Gets or sets the button's background brush.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.WinForms.TitleBarButton.ButtonPen">
+            <summary>
+            Gets or sets the button's border pen.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.WinForms.TitleBarButton.ButtonImage">
+            <summary>
+            Gets or sets the image used as button's icon.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.WinForms.TitleBarButton.Width">
+            <summary>
+            Gets or sets the width of current item. 
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.WinForms.TitleBarButton.Height">
+            <summary>
+            Gets or sets the height of current item. 
+            </summary>
+        </member>
+        <member name="F:MindFusion.UI.WinForms.DockHandlersForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:MindFusion.UI.WinForms.DockHandlersForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:MindFusion.UI.WinForms.DockHandlersForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:MindFusion.UI.WinForms.DockHandlerControl.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:MindFusion.UI.WinForms.DockHandlerControl.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:MindFusion.UI.WinForms.DockHandlerControl.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify 
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:MindFusion.UI.WinForms.CheckBox">
+            <summary>
+            Represents a custom-drawn check boxes.
+            </summary>
+        </member>
+        <member name="T:MindFusion.UI.WinForms.ButtonBase">
+            <summary>
+            Represents the base type for button-like controls.
+            </summary>
+        </member>
+        <member name="M:MindFusion.UI.WinForms.ButtonBase.#ctor">
+            <summary>
+            Initializes a new instance of the ButtonBase class.
+            </summary>
+        </member>
+        <member name="M:MindFusion.UI.WinForms.ButtonBase.OnDoubleClick(System.EventArgs)">
+            <summary>
+            Control.OnDoubleClick override.
+            </summary>
+        </member>
+        <member name="M:MindFusion.UI.WinForms.ButtonBase.OnPaintBackground(System.Windows.Forms.PaintEventArgs)">
+            <summary>
+            Control.OnPaintBackground override.
+            </summary>
+        </member>
+        <member name="M:MindFusion.UI.WinForms.ButtonBase.OnGotFocus(System.EventArgs)">
+            <summary>
+            Control.OnGotFocus override.
+            </summary>
+        </member>
+        <member name="M:MindFusion.UI.WinForms.ButtonBase.OnLostFocus(System.EventArgs)">
+            <summary>
+            Control.OnLostFocus override.
+            </summary>
+        </member>
+        <member name="M:MindFusion.UI.WinForms.ButtonBase.ProcessDialogKey(System.Windows.Forms.Keys)">
+            <summary>
+            Control.ProcessDialogKey override.
+            </summary>
+        </member>
+        <member name="M:MindFusion.UI.WinForms.ButtonBase.OnMouseDown(System.Windows.Forms.MouseEventArgs)">
+            <summary>
+            Control.OnMouseDown override.
+            </summary>
+        </member>
+        <member name="M:MindFusion.UI.WinForms.ButtonBase.OnMouseMove(System.Windows.Forms.MouseEventArgs)">
+            <summary>
+            Control.OnMouseMove override.
+            </summary>
+        </member>
+        <member name="M:MindFusion.UI.WinForms.ButtonBase.OnMouseUp(System.Windows.Forms.MouseEventArgs)">
+            <summary>
+            Control.OnMouseUp override.
+            </summary>
+        </member>
+        <member name="M:MindFusion.UI.WinForms.ButtonBase.OnMouseEnter(System.EventArgs)">
+            <summary>
+            Control.OnMouseEnter override.
+            </summary>
+        </member>
+        <member name="M:MindFusion.UI.WinForms.ButtonBase.OnMouseLeave(System.EventArgs)">
+            <summary>
+            Control.OnMouseLeave override.
+            </summary>
+        </member>
+        <member name="M:MindFusion.UI.WinForms.ButtonBase.FormatFromAlignment(System.Drawing.ContentAlignment)">
+            <summary>
+            Returns a StringFormat object corresponding to the
+            specified content alignment.
+            </summary>
+        </member>
+        <member name="M:MindFusion.UI.WinForms.ButtonBase.OnDraw(MindFusion.UI.WinForms.ButtonDrawEventArgs)">
+            <summary>
+            Raises the Draw event.
+            </summary>
+        </member>
+        <member name="M:MindFusion.UI.WinForms.ButtonBase.OnDown(System.EventArgs)">
+            <summary>
+            Raises the Down event.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.WinForms.ButtonBase.BorderBrush">
+            <summary>
+            Gets or sets the brush used to draw the button border.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.WinForms.ButtonBase.BorderBrushOver">
+            <summary>
+            Gets or sets the brush used to draw the button border when the button is being hovered.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.WinForms.ButtonBase.BorderBrushDown">
+            <summary>
+            Gets or sets the brush used to draw the button border when the button is being pressed.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.WinForms.ButtonBase.BorderBrushDisabled">
+            <summary>
+            Gets or sets the brush used to draw the button border when the button is disabled.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.WinForms.ButtonBase.BorderThickness">
+            <summary>
+            Gets or sets the thickness of the button border.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.WinForms.ButtonBase.BackgroundBrush">
+            <summary>
+            Gets or sets the brush used to fill the button when it is in normal state.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.WinForms.ButtonBase.BackgroundBrushOver">
+            <summary>
+            Gets or sets the brush used to fill the button when it is being hovered.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.WinForms.ButtonBase.BackgroundBrushDown">
+            <summary>
+            Gets or sets the brush used to fill the button when it is being pressed.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.WinForms.ButtonBase.BackgroundBrushDisabled">
+            <summary>
+            Gets or sets the brush used to fill the button
+            when it is disabled.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.WinForms.ButtonBase.ForegroundBrush">
+            <summary>
+            Gets or sets the brush used to draw the button content.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.WinForms.ButtonBase.ForegroundBrushOver">
+            <summary>
+            Gets or sets the brush used to draw the button content when the button is being hovered.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.WinForms.ButtonBase.ForegroundBrushDown">
+            <summary>
+            Gets or sets the brush used to draw the button content when the button is being pressed.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.WinForms.ButtonBase.ForegroundBrushDisabled">
+            <summary>
+            Gets or sets the brush used to draw the button content when the button is disabled.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.WinForms.ButtonBase.TextAlign">
+            <summary>
+            Gets or sets the alignment of the text in the button control.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.WinForms.ButtonBase.CustomDraw">
+            <summary>
+            Gets or set the type of custom drawing for the button.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.WinForms.ButtonBase.ShowFocus">
+            <summary>
+            Gets or sets a value indicating whether a focus rectangle should be drawn when the control has the input focus.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.WinForms.ButtonBase.FocusOnClick">
+            <summary>
+            Gets or sets a value indicating whether the button receives the input focus when it is clicked by the mouse.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.WinForms.ButtonBase.Font">
+            <summary>
+            Gets or sets the font of the text displayed by the button.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.WinForms.ButtonBase.Text">
+            <summary>
+            Gets or sets the text display by the button.
+            </summary>
+        </member>
+        <member name="E:MindFusion.UI.WinForms.ButtonBase.Draw">
+            <summary>
+            Occurs when the button is being painted.
+            </summary>
+        </member>
+        <member name="E:MindFusion.UI.WinForms.ButtonBase.Down">
+            <summary>
+            Occurs when the mouse is pressed over the button.
+            </summary>
+        </member>
+        <member name="M:MindFusion.UI.WinForms.CheckBox.#ctor">
+            <summary>
+            Initializes a new instance of the CheckBox class.
+            </summary>
+        </member>
+        <member name="M:MindFusion.UI.WinForms.CheckBox.OnPaint(System.Windows.Forms.PaintEventArgs)">
+            <summary>
+            Control.OnPaint override.
+            </summary>
+        </member>
+        <member name="M:MindFusion.UI.WinForms.CheckBox.OnClick(System.EventArgs)">
+            <summary>
+            Control.OnClick override.
+            </summary>
+        </member>
+        <member name="M:MindFusion.UI.WinForms.CheckBox.OnCheckStateChanged(System.EventArgs)">
+            <summary>
+            Raises the CheckStateChanged event.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.WinForms.CheckBox.CheckState">
+            <summary>
+            Gets or sets the current state of the checkbox.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.WinForms.CheckBox.ThreeState">
+            <summary>
+            Gets or sets a value indicating whether the check box can be in intermediate state.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.WinForms.CheckBox.BoxSize">
+            <summary>
+            Gets or sets the size of the check box.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.WinForms.CheckBox.Padding">
+            <summary>
+            Gets or sets the padding within the control.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.WinForms.CheckBox.ContentAlign">
+            <summary>
+            Gets or sets the alignment of the check box and text.
+            </summary>
+        </member>
+        <member name="E:MindFusion.UI.WinForms.CheckBox.CheckStateChanged">
+            <summary>
+            Raised when the CheckState property have been changed interactively.
+            </summary>
+        </member>
+        <member name="T:MindFusion.UI.WinForms.CheckBoxState">
+            <summary>
+            For internal use.
+            </summary>
+        </member>
+        <member name="T:MindFusion.UI.WinForms.ControlState">
+            <summary>
+            For internal use.
+            </summary>
+        </member>
+        <member name="M:MindFusion.UI.WinForms.ControlState.GetEffectiveBackgroundBrush(System.Drawing.Rectangle)">
+            <summary>
+            For internal use.
+            </summary>
+        </member>
+        <member name="M:MindFusion.UI.WinForms.ControlState.GetEffectiveBorderBrush(System.Drawing.Rectangle)">
+            <summary>
+            For internal use.
+            </summary>
+        </member>
+        <member name="M:MindFusion.UI.WinForms.ControlState.GetEffectiveForegroundBrush(System.Drawing.Rectangle)">
+            <summary>
+            For internal use.
+            </summary>
+        </member>
+        <member name="M:MindFusion.UI.WinForms.ControlState.GetEffectiveTextFormat">
+            <summary>
+            For internal use.
+            </summary>
+        </member>
+        <member name="M:MindFusion.UI.WinForms.ControlState.ApplyPadding(System.Drawing.Rectangle)">
+            <summary>
+            For internal use.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.WinForms.ControlState.Enabled">
+            <summary>
+            For internal use.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.WinForms.ControlState.BackgroundBrush">
+            <summary>
+            For internal use.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.WinForms.ControlState.BackgroundBrushDisabled">
+            <summary>
+            For internal use.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.WinForms.ControlState.ForegroundBrush">
+            <summary>
+            For internal use.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.WinForms.ControlState.ForegroundBrushDisabled">
+            <summary>
+            For internal use.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.WinForms.ControlState.BorderBrush">
+            <summary>
+            For internal use.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.WinForms.ControlState.BorderBrushDisabled">
+            <summary>
+            For internal use.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.WinForms.ControlState.BorderThickness">
+            <summary>
+            For internal use.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.WinForms.ControlState.TextAlign">
+            <summary>
+            For internal use.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.WinForms.ControlState.Padding">
+            <summary>
+            For internal use.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.WinForms.ControlState.Text">
+            <summary>
+            For internal use.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.WinForms.ControlState.Font">
+            <summary>
+            For internal use.
+            </summary>
+        </member>
+        <member name="M:MindFusion.UI.WinForms.CheckBoxState.GetEffectiveBackgroundBrush(System.Drawing.Rectangle)">
+            <summary>
+            For internal use.
+            </summary>
+        </member>
+        <member name="M:MindFusion.UI.WinForms.CheckBoxState.GetEffectiveBorderBrush(System.Drawing.Rectangle)">
+            <summary>
+            For internal use.
+            </summary>
+        </member>
+        <member name="M:MindFusion.UI.WinForms.CheckBoxState.GetEffectiveForegroundBrush(System.Drawing.Rectangle)">
+            <summary>
+            For internal use.
+            </summary>
+        </member>
+        <member name="M:MindFusion.UI.WinForms.CheckBoxState.GetEffectiveTickBrush(System.Drawing.Rectangle)">
+            <summary>
+            For internal use.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.WinForms.CheckBoxState.BackgroundBrushOver">
+            <summary>
+            For internal use.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.WinForms.CheckBoxState.BackgroundBrushDown">
+            <summary>
+            For internal use.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.WinForms.CheckBoxState.ForegroundBrushOver">
+            <summary>
+            For internal use.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.WinForms.CheckBoxState.ForegroundBrushDown">
+            <summary>
+            For internal use.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.WinForms.CheckBoxState.BorderBrushOver">
+            <summary>
+            For internal use.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.WinForms.CheckBoxState.BorderBrushDown">
+            <summary>
+            For internal use.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.WinForms.CheckBoxState.TickBrush">
+            <summary>
+            For internal use.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.WinForms.CheckBoxState.TickBrushDisabled">
+            <summary>
+            For internal use.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.WinForms.CheckBoxState.TickBrushOver">
+            <summary>
+            For internal use.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.WinForms.CheckBoxState.TickBrushDown">
+            <summary>
+            For internal use.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.WinForms.CheckBoxState.BoxSize">
+            <summary>
+            For internal use.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.WinForms.CheckBoxState.Focused">
+            <summary>
+            For internal use.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.WinForms.CheckBoxState.ShowFocus">
+            <summary>
+            For internal use.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.WinForms.CheckBoxState.State">
+            <summary>
+            For internal use.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.WinForms.CheckBoxState.CheckState">
+            <summary>
+            For internal use.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.WinForms.CheckBoxState.ContentAlign">
+            <summary>
+            For internal use.
+            </summary>
+        </member>
+        <member name="T:MindFusion.UI.WinForms.CheckBoxRenderer">
+            <summary>
+            For internal use.
+            </summary>
+        </member>
+        <member name="M:MindFusion.UI.WinForms.CheckBoxRenderer.RenderBackground(System.Drawing.Graphics,System.Drawing.Rectangle,MindFusion.UI.WinForms.CheckBoxState)">
+            <summary>
+            For internal use.
+            </summary>
+        </member>
+        <member name="M:MindFusion.UI.WinForms.CheckBoxRenderer.RenderBox(System.Drawing.Graphics,System.Drawing.Rectangle,MindFusion.UI.WinForms.CheckBoxState)">
+            <summary>
+            For internal use.
+            </summary>
+        </member>
+        <member name="M:MindFusion.UI.WinForms.CheckBoxRenderer.RenderText(System.Drawing.Graphics,System.Drawing.Rectangle,MindFusion.UI.WinForms.CheckBoxState)">
+            <summary>
+            For internal use.
+            </summary>
+        </member>
+        <member name="M:MindFusion.UI.WinForms.CheckBoxRenderer.RenderFocus(System.Drawing.Graphics,System.Drawing.Rectangle,MindFusion.UI.WinForms.CheckBoxState)">
+            <summary>
+            For internal use.
+            </summary>
+        </member>
+        <member name="M:MindFusion.UI.WinForms.CheckBoxRenderer.Render(System.Drawing.Graphics,System.Drawing.Rectangle,MindFusion.UI.WinForms.CheckBoxState)">
+            <summary>
+            For internal use.
+            </summary>
+        </member>
+        <member name="T:MindFusion.Drawing.ImageAlignment">
+            <summary>
+            Specifies the alignment of an image.
+            </summary>
+        </member>
+        <member name="F:MindFusion.Drawing.ImageAlignment.Unspecified">
+            <summary>
+            Invalid image alignment.
+            </summary>
+        </member>
+        <member name="F:MindFusion.Drawing.ImageAlignment.None">
+            <summary>
+            Same as Center.
+            </summary>
+        </member>
+        <member name="F:MindFusion.Drawing.ImageAlignment.Left">
+            <summary>
+            The image is aligned to the left side of
+            the layout rectangle.
+            </summary>
+        </member>
+        <member name="F:MindFusion.Drawing.ImageAlignment.Top">
+            <summary>
+            The image is aligned to the top side of
+            the layout rectangle.
+            </summary>
+        </member>
+        <member name="F:MindFusion.Drawing.ImageAlignment.Right">
+            <summary>
+            The image is aligned to the right side of
+            the layout rectangle.
+            </summary>
+        </member>
+        <member name="F:MindFusion.Drawing.ImageAlignment.Bottom">
+            <summary>
+            The image is aligned to the bottom side of
+            the layout rectangle.
+            </summary>
+        </member>
+        <member name="F:MindFusion.Drawing.ImageAlignment.Center">
+            <summary>
+            The image is centered within the layout rectangle.
+            </summary>
+        </member>
+        <member name="F:MindFusion.Drawing.ImageAlignment.Fit">
+            <summary>
+            The image is stretched to fit in the layout
+            rectangle, but its original ratio is preserved.
+            </summary>
+        </member>
+        <member name="F:MindFusion.Drawing.ImageAlignment.Tile">
+            <summary>
+            The image is tiled across the layout rectangle.
+            </summary>
+        </member>
+        <member name="F:MindFusion.Drawing.ImageAlignment.Stretch">
+            <summary>
+            The image is stretched. Equal to Left | Top | Right | Bottom.
+            </summary>
+        </member>
+        <member name="T:MindFusion.UI.WinForms.VScrollBar">
+            <summary>
+            Represents a custom-drawn vertical scroll bar.
+            </summary>
+        </member>
+        <member name="T:MindFusion.UI.WinForms.ScrollBar">
+            <summary>
+            Represents a custom-drawn scroll bar.
+            </summary>
+        </member>
+        <member name="M:MindFusion.UI.WinForms.ScrollBar.#ctor(System.Boolean)">
+            <summary>
+            Initializes a new instance of the ScrollBar class.
+            </summary>
+        </member>
+        <member name="M:MindFusion.UI.WinForms.ScrollBar.Dispose(System.Boolean)">
+            <summary>
+            Control.Dispose override.
+            </summary>
+        </member>
+        <member name="M:MindFusion.UI.WinForms.ScrollBar.OnPaint(System.Windows.Forms.PaintEventArgs)">
+            <summary>
+            Control.OnPaint override.
+            </summary>
+        </member>
+        <member name="M:MindFusion.UI.WinForms.ScrollBar.OnKeyDown(System.Windows.Forms.KeyEventArgs)">
+            <summary>
+            Control.OnKeyDown override.
+            </summary>
+        </member>
+        <member name="M:MindFusion.UI.WinForms.ScrollBar.OnKeyUp(System.Windows.Forms.KeyEventArgs)">
+            <summary>
+            Control.OnKeyUp override.
+            </summary>
+        </member>
+        <member name="M:MindFusion.UI.WinForms.ScrollBar.IsInputKey(System.Windows.Forms.Keys)">
+            <summary>
+            Control.IsInputKey override.
+            </summary>
+        </member>
+        <member name="M:MindFusion.UI.WinForms.ScrollBar.OnResize(System.EventArgs)">
+            <summary>
+            Control.OnResize override.
+            </summary>
+        </member>
+        <member name="M:MindFusion.UI.WinForms.ScrollBar.OnMouseDown(System.Windows.Forms.MouseEventArgs)">
+            <summary>
+            Control.OnMouseDown override.
+            </summary>
+        </member>
+        <member name="M:MindFusion.UI.WinForms.ScrollBar.OnMouseMove(System.Windows.Forms.MouseEventArgs)">
+            <summary>
+            Control.OnMouseMove override.
+            </summary>
+        </member>
+        <member name="M:MindFusion.UI.WinForms.ScrollBar.OnMouseUp(System.Windows.Forms.MouseEventArgs)">
+            <summary>
+            Control.OnMouseUp override.
+            </summary>
+        </member>
+        <member name="M:MindFusion.UI.WinForms.ScrollBar.OnMouseEnter(System.EventArgs)">
+            <summary>
+            Control.OnMouseEnter override.
+            </summary>
+        </member>
+        <member name="M:MindFusion.UI.WinForms.ScrollBar.OnMouseLeave(System.EventArgs)">
+            <summary>
+            Control.OnMouseLeave override.
+            </summary>
+        </member>
+        <member name="M:MindFusion.UI.WinForms.ScrollBar.OnGotFocus(System.EventArgs)">
+            <summary>
+            Control.OnGotFocus override.
+            </summary>
+        </member>
+        <member name="M:MindFusion.UI.WinForms.ScrollBar.OnLostFocus(System.EventArgs)">
+            <summary>
+            Control.OnLostFocus override.
+            </summary>
+        </member>
+        <member name="M:MindFusion.UI.WinForms.ScrollBar.OnRightToLeftChanged(System.EventArgs)">
+            <summary>
+            Control.OnRightToLeftChanged override.
+            </summary>
+        </member>
+        <member name="M:MindFusion.UI.WinForms.ScrollBar.OnValueChanged(System.EventArgs)">
+            <summary>
+            Raises the ValueChanged event.
+            </summary>
+        </member>
+        <member name="M:MindFusion.UI.WinForms.ScrollBar.OnScroll(System.Windows.Forms.ScrollEventArgs)">
+            <summary>
+            Raises the Scroll event.
+            </summary>
+        </member>
+        <member name="M:MindFusion.UI.WinForms.ScrollBar.OnDraw(MindFusion.UI.WinForms.ScrollBarDrawEventArgs)">
+            <summary>
+            Raises the ScrollBarDraw event.
+            </summary>
+        </member>
+        <member name="M:MindFusion.UI.WinForms.ScrollBar.GetThumbArea">
+            <summary>
+            Calculates the bounds of the scrollbar area
+            excluding the buttons.
+            </summary>
+        </member>
+        <member name="M:MindFusion.UI.WinForms.ScrollBar.GetDraggedThumbRect">
+            <summary>
+            Gets the thumb rect as it is being dragged.
+            </summary>
+        </member>
+        <member name="M:MindFusion.UI.WinForms.ScrollBar.GetThumbRect">
+            <summary>
+            Gets the rectangle of the scroll bar thumb.
+            </summary>
+        </member>
+        <member name="M:MindFusion.UI.WinForms.ScrollBar.UpdateLayout">
+            <summary>
+            Updates the scrollbar layout.
+            </summary>
+        </member>
+        <member name="M:MindFusion.UI.WinForms.ScrollBar.ScrollThumb">
+            <summary>
+            Adjusts the thumb position depending on the current
+            position of the mouse.
+            </summary>
+        </member>
+        <member name="M:MindFusion.UI.WinForms.ScrollBar.ScrollPage(MindFusion.UI.WinForms.ScrollDirections)">
+            <summary>
+            Performs a page scrolling depending on the current position
+            of the mouse.
+            </summary>
+        </member>
+        <member name="M:MindFusion.UI.WinForms.ScrollBar.SmallDecrement">
+            <summary>
+            Performs a small decrement. Raises the appropriate event.
+            </summary>
+        </member>
+        <member name="M:MindFusion.UI.WinForms.ScrollBar.SmallIncrement">
+            <summary>
+            Performs a small increment. Raises the appropriate event.
+            </summary>
+        </member>
+        <member name="M:MindFusion.UI.WinForms.ScrollBar.LargeDecrement">
+            <summary>
+            Performs a large decrement. Raises the appropriate event.
+            </summary>
+        </member>
+        <member name="M:MindFusion.UI.WinForms.ScrollBar.LargeIncrement">
+            <summary>
+            Performs a large incrememnt. Raises the appropriate event.
+            </summary>
+        </member>
+        <member name="M:MindFusion.UI.WinForms.ScrollBar.First">
+            <summary>
+            Positions the scrollbar to its first value. Raises the appropriate event.
+            </summary>
+        </member>
+        <member name="M:MindFusion.UI.WinForms.ScrollBar.Last">
+            <summary>
+            Positions the scrollbar to its last value. Raises the appropriate event
+            </summary>
+        </member>
+        <member name="F:MindFusion.UI.WinForms.ScrollBar.vertical">
+            <summary>
+            Indicates whether the scroll bar is vertical.
+            </summary>
+        </member>
+        <member name="F:MindFusion.UI.WinForms.ScrollBar.predragValue">
+            <summary>
+            The same as value all the time except when the thumb
+            is being dragged. Then, while the dragging is in process
+            the predragValue does not changed.
+            </summary>
+        </member>
+        <member name="F:MindFusion.UI.WinForms.ScrollBar.mouseRelative">
+            <summary>
+            The relative offset of the mouse towards the thumb rect.
+            </summary>
+        </member>
+        <member name="F:MindFusion.UI.WinForms.ScrollBar.mouse">
+            <summary>
+            Temporary position of the mouse.
+            </summary>
+        </member>
+        <member name="F:MindFusion.UI.WinForms.ScrollBar.mouseAbsolute">
+            <summary>
+            Absolute mouse position.
+            </summary>
+        </member>
+        <member name="F:MindFusion.UI.WinForms.ScrollBar.downTimer">
+            <summary>
+            The timer that is activated when the user clicks
+            to perform large increment or decrement.
+            </summary>
+        </member>
+        <member name="F:MindFusion.UI.WinForms.ScrollBar.skipTimerTicks">
+            <summary>
+            Timer ticks to skip after the initial click.
+            </summary>
+        </member>
+        <member name="F:MindFusion.UI.WinForms.ScrollBar.initialPageScroll">
+            <summary>
+            The initial direction of interactive page scrolling.
+            </summary>
+        </member>
+        <member name="F:MindFusion.UI.WinForms.ScrollBar.previousPageScroll">
+            <summary>
+            The result of the previous page scrolling;
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.WinForms.ScrollBar.ButtonSize">
+            <summary>
+            Gets or sets the size of the buttons in the scroll bar.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.WinForms.ScrollBar.Minimum">
+            <summary>
+            Gets or sets the lower limit of values of the scrollable range.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.WinForms.ScrollBar.Maximum">
+            <summary>
+            Gets or sets the upper limit of values of the scrollable range.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.WinForms.ScrollBar.LargeChange">
+            <summary>
+            Gets or sets the value to be added to or subtracted from
+            the Value property when the scroll box is moved a large distance.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.WinForms.ScrollBar.SmallChange">
+            <summary>
+            Gets or sets the value to be added to or subtracted from
+            the Value property when the scroll box is moved a small distance.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.WinForms.ScrollBar.Value">
+            <summary>
+            Gets or sets a numeric value that represents the current position of the scroll box on the scroll bar control.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.WinForms.ScrollBar.ThumbBorderThickness">
+            <summary>
+            Gets or sets the border thickness of the scroll bar thumb.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.WinForms.ScrollBar.ThumbBorderBrush">
+            <summary>
+            Gets or sets the brush used to draw the border of scroll bar thumb.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.WinForms.ScrollBar.ThumbBorderBrushOver">
+            <summary>
+            Gets or sets the brush used to draw the border of scroll bar thumb when it is pointed with the mouse.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.WinForms.ScrollBar.ThumbBorderBrushDown">
+            <summary>
+            Gets or sets the brush used to draw the border of scroll bar thumb when it is pressed.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.WinForms.ScrollBar.ThumbBorderBrushDisabled">
+            <summary>
+            Gets or sets the border brush used to draw the border of scroll bar thumb when the scroll bar is disabled.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.WinForms.ScrollBar.ThumbBackgroundBrush">
+            <summary>
+            Gets or sets the brush used to fill the scroll bar thumb when it is in normal state.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.WinForms.ScrollBar.ThumbBackgroundBrushOver">
+            <summary>
+            Gets or sets the brush used to fill the scroll bar thumb when it is pointed with the mouse.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.WinForms.ScrollBar.ThumbBackgroundBrushDown">
+            <summary>
+            Gets or sets the brush used to fill the scroll bar thumb when it is pressed.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.WinForms.ScrollBar.ThumbBackgroundBrushDisabled">
+            <summary>
+            Gets or sets the brush used to fill scroll bar thumb when the scroll bar is disabled.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.WinForms.ScrollBar.ButtonBorderThickness">
+            <summary>
+            Gets or sets the border thickness of the scroll bar buttons.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.WinForms.ScrollBar.ButtonBorderBrush">
+            <summary>
+            Gets or sets the brush used to draw the border of scroll bar buttons.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.WinForms.ScrollBar.ButtonBorderBrushOver">
+            <summary>
+            Gets or sets the brush used to draw the border of scroll bar buttons when they are pointed with the mouse.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.WinForms.ScrollBar.ButtonBorderBrushDown">
+            <summary>
+            Gets or sets the brush used to draw the border of scroll bar buttons when they are pressed.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.WinForms.ScrollBar.ButtonBorderBrushDisabled">
+            <summary>
+            Gets or sets the border brush used to draw the border of scroll bar buttons when the scroll bar is disabled.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.WinForms.ScrollBar.ButtonBackgroundBrush">
+            <summary>
+            Gets or sets the brush used to fill the scroll bar buttons when they are in normal state.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.WinForms.ScrollBar.ButtonBackgroundBrushOver">
+            <summary>
+            Gets or sets the brush used to fill the scroll bar buttons when they are pointed with the mouse.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.WinForms.ScrollBar.ButtonBackgroundBrushDown">
+            <summary>
+            Gets or sets the brush used to fill the scroll bar buttons when they are pressed.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.WinForms.ScrollBar.ButtonBackgroundBrushDisabled">
+            <summary>
+            Gets or sets the brush used to fill scroll bar buttons when the scroll bar is disabled.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.WinForms.ScrollBar.ForegroundBrush">
+            <summary>
+            Gets or sets the brush used to draw the content of scroll bar elements when they are in normal state.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.WinForms.ScrollBar.ForegroundBrushOver">
+            <summary>
+            Gets or sets the brush used to draw the content of scroll bar elements when they are pointed with the mouse.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.WinForms.ScrollBar.ForegroundBrushDown">
+            <summary>
+            Gets or sets the brush used to draw the content of scroll bar elements when they are pressed.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.WinForms.ScrollBar.ForegroundBrushDisabled">
+            <summary>
+            Gets or sets the brush used to draw the content of scroll bar elements when the scroll bar is disabled.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.WinForms.ScrollBar.BackgroundBrush">
+            <summary>
+            Gets or sets the brush used to fill the scroll bar background.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.WinForms.ScrollBar.BackgroundBrushDown">
+            <summary>
+            Gets or sets the brush used to fill the scroll bar background as indication when the user clicks in it.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.WinForms.ScrollBar.BackgroundBrushDisabled">
+            <summary>
+            Gets or sets the brush used to fill the scroll bar background when the scroll bar is disabled.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.WinForms.ScrollBar.TabStop">
+            <summary>
+            Gets or sets a value indicating whether the user can give
+            the focus to this control using the TAB key.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.WinForms.ScrollBar.Enabled">
+            <summary>
+            Gets or sets a value indicating whether the control
+            can respond to user interaction.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.WinForms.ScrollBar.IsRightToLeft">
+            <summary>
+            Gets whether the scrollbar is right-to-left.
+            Vertical scrollers are never right-to-left.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.WinForms.ScrollBar.SafeLargeChange">
+            <summary>
+            Gets a safe large change value, i.e. if the
+            large change is 0, returns 1.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.WinForms.ScrollBar.BackColor">
+            <summary>
+            Do not use.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.WinForms.ScrollBar.BackgroundImage">
+            <summary>
+            Do not use.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.WinForms.ScrollBar.Font">
+            <summary>
+            Do not use.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.WinForms.ScrollBar.ForeColor">
+            <summary>
+            Do not use.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.WinForms.ScrollBar.Text">
+            <summary>
+            Do not use.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.WinForms.ScrollBar.ImeMode">
+            <summary>
+            Do not use.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.WinForms.ScrollBar.Width">
+            <summary>
+            Gets or sets the width of the scrollbar.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.WinForms.ScrollBar.Height">
+            <summary>
+            Gets or sets the height of the scrollbar.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.WinForms.ScrollBar.IsHorizontal">
+            <summary>
+            Gets or sets a value indicating whether the scrollbar is horizontal.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.WinForms.ScrollBar.IsVertical">
+            <summary>
+            Gets or sets a value indicating whether the scrollbar is vertical.
+            </summary>
+        </member>
+        <member name="E:MindFusion.UI.WinForms.ScrollBar.ValueChanged">
+            <summary>
+            Occurs when the Value property has changed either
+            interactively by the user or programatically.
+            </summary>
+        </member>
+        <member name="E:MindFusion.UI.WinForms.ScrollBar.Scroll">
+            <summary>
+            Occurs when the scroll box has been moved by either
+            a mouse or keyboard action.
+            </summary>
+        </member>
+        <member name="E:MindFusion.UI.WinForms.ScrollBar.Draw">
+            <summary>
+            Occurs when the scroll bar is being painted.
+            </summary>
+        </member>
+        <member name="E:MindFusion.UI.WinForms.ScrollBar.BackColorChanged">
+            <summary>
+            Do not use.
+            </summary>
+        </member>
+        <member name="E:MindFusion.UI.WinForms.ScrollBar.BackgroundImageChanged">
+            <summary>
+            Do not use.
+            </summary>
+        </member>
+        <member name="E:MindFusion.UI.WinForms.ScrollBar.Click">
+            <summary>
+            Do not use.
+            </summary>
+        </member>
+        <member name="E:MindFusion.UI.WinForms.ScrollBar.DoubleClick">
+            <summary>
+            Do not use.
+            </summary>
+        </member>
+        <member name="E:MindFusion.UI.WinForms.ScrollBar.FontChanged">
+            <summary>
+            Do not use.
+            </summary>
+        </member>
+        <member name="E:MindFusion.UI.WinForms.ScrollBar.ForeColorChanged">
+            <summary>
+            Do not use.
+            </summary>
+        </member>
+        <member name="E:MindFusion.UI.WinForms.ScrollBar.ImeModeChanged">
+            <summary>
+            Do not use.
+            </summary>
+        </member>
+        <member name="E:MindFusion.UI.WinForms.ScrollBar.Paint">
+            <summary>
+            Do not use.
+            </summary>
+        </member>
+        <member name="E:MindFusion.UI.WinForms.ScrollBar.TextChanged">
+            <summary>
+            Do not use.
+            </summary>
+        </member>
+        <member name="E:MindFusion.UI.WinForms.ScrollBar.MouseDown">
+            <summary>
+            Do not use.
+            </summary>
+        </member>
+        <member name="E:MindFusion.UI.WinForms.ScrollBar.MouseMove">
+            <summary>
+            Do not use.
+            </summary>
+        </member>
+        <member name="E:MindFusion.UI.WinForms.ScrollBar.MouseUp">
+            <summary>
+            Do not use.
+            </summary>
+        </member>
+        <member name="M:MindFusion.UI.WinForms.VScrollBar.#ctor">
+            <summary>
+            Initializes a new instance of the VScrollBar class.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.WinForms.VScrollBar.DefaultSize">
+            <summary>
+            Gets the default size of the scroll bar.
+            </summary>
+        </member>
+        <member name="F:MindFusion.UI.WinForms.SplitterForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:MindFusion.UI.WinForms.SplitterForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:MindFusion.UI.WinForms.SplitterForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:MindFusion.UI.WinForms.DockPreviewForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:MindFusion.UI.WinForms.DockPreviewForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:MindFusion.UI.WinForms.DockPreviewForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:MindFusion.UI.WinForms.SvgViewer">
+            <summary>
+            A control for displaying SVG files.
+            </summary>
+        </member>
+        <member name="M:MindFusion.UI.WinForms.SvgViewer.#ctor">
+            <summary>
+            Initializes a new instance of the SvgViewer class.
+            </summary>
+        </member>
+        <member name="M:MindFusion.UI.WinForms.SvgViewer.OnPaint(System.Windows.Forms.PaintEventArgs)">
+            <summary>
+            Control.OnPaint override.
+            </summary>
+        </member>
+        <member name="M:MindFusion.UI.WinForms.SvgViewer.OnResize(System.EventArgs)">
+            <summary>
+            Control.OnResize override.
+            </summary>
+        </member>
+        <member name="M:MindFusion.UI.WinForms.SvgViewer.OnMouseDown(System.Windows.Forms.MouseEventArgs)">
+            <summary>
+            Control.OnMouseDown override.
+            </summary>
+        </member>
+        <member name="M:MindFusion.UI.WinForms.SvgViewer.OnMouseMove(System.Windows.Forms.MouseEventArgs)">
+            <summary>
+            Control.OnMouseMove override.
+            </summary>
+        </member>
+        <member name="M:MindFusion.UI.WinForms.SvgViewer.OnMouseUp(System.Windows.Forms.MouseEventArgs)">
+            <summary>
+            Control.OnMouseUp override.
+            </summary>
+        </member>
+        <member name="M:MindFusion.UI.WinForms.SvgViewer.Load">
+            <summary>
+            Displays the drawing specified by the FileName property of the control.
+            </summary>
+        </member>
+        <member name="M:MindFusion.UI.WinForms.SvgViewer.Load(System.String)">
+            <summary>
+            Sets the FileName to the specified URL and displays the drawing indicated.
+            </summary>
+        </member>
+        <member name="M:MindFusion.UI.WinForms.SvgViewer.ZoomIn">
+            <summary>
+            Zooms into controls's content.
+            </summary>
+        </member>
+        <member name="M:MindFusion.UI.WinForms.SvgViewer.ZoomOut">
+            <summary>
+            Zooms out of the controls's content.
+            </summary>
+        </member>
+        <member name="M:MindFusion.UI.WinForms.SvgViewer.ScrollTo(System.Single,System.Single)">
+            <summary>
+            Scrolls the controls's content to the specified point.
+            </summary>
+        </member>
+        <member name="M:MindFusion.UI.WinForms.SvgViewer.SetScrollX(System.Single)">
+            <summary>
+            Sets the value of the horizontal scroller.
+            </summary>
+        </member>
+        <member name="M:MindFusion.UI.WinForms.SvgViewer.SetScrollY(System.Single)">
+            <summary>
+            Sets the value of the vertical scroller.
+            </summary>
+        </member>
+        <member name="M:MindFusion.UI.WinForms.SvgViewer.OnScroll(System.Object,System.Windows.Forms.ScrollEventArgs)">
+            <summary>
+            Handles the Scroll event on both scrollbars.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.WinForms.SvgViewer.FileName">
+            <summary>
+            Gets or sets the location of the SVG drawing rendered in this control.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.WinForms.SvgViewer.Content">
+            <summary>
+            Gets or sets the SvgContent instance representing the SVG drawing rendered in this control.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.WinForms.SvgViewer.ContentBounds">
+            <summary>
+            Gets the Content bounds.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.WinForms.SvgViewer.SizeMode">
+            <summary>
+            Gets or sets a value indicating how the drawing is positioned within the control.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.WinForms.SvgViewer.ZoomFactor">
+            <summary>
+            Gets or sets the zoom factor used to scale control's content.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.WinForms.SvgViewer.ScrollX">
+            <summary>
+            Gets or sets the control's X scroll position.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.WinForms.SvgViewer.ScrollY">
+            <summary>
+            Gets or sets the control's Y scroll position.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.WinForms.SvgViewer.VScrollBar">
+            <summary>
+            Gets the vertical scrollbar of the control.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.WinForms.SvgViewer.HScrollBar">
+            <summary>
+            Gets the horizontal scrollbar of the control.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.WinForms.SvgViewer.SmoothingMode">
+            <summary>
+            Gets or sets the current anti-aliasing mode.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.WinForms.SvgViewer.TextRenderingHint">
+            <summary>
+            Gets or sets the rendering mode for text displayed in this control.
+            </summary>
+        </member>
+        <member name="E:MindFusion.UI.WinForms.SvgViewer.SizeModeChanged">
+            <summary>
+            Occurs when SizeMode changes.
+            </summary>
+        </member>
+        <member name="E:MindFusion.UI.WinForms.SvgViewer.ZoomFactorChanged">
+            <summary>
+            Occurs when ZoomFactor changes.
+            </summary>
+        </member>
+        <member name="E:MindFusion.UI.WinForms.SvgViewer.ScrollChanged">
+            <summary>
+            Occurs when the scroll position changes.
+            </summary>
+        </member>
+        <member name="T:MindFusion.UI.WinForms.ButtonDrawEventArgs">
+            <summary>
+            Encapsulates information for button custom drawing.
+            </summary>
+        </member>
+        <member name="T:MindFusion.UI.WinForms.DrawEventArgs">
+            <summary>
+            Encapsulates information for general custom drawing.
+            </summary>
+        </member>
+        <member name="M:MindFusion.UI.WinForms.DrawEventArgs.#ctor(System.Drawing.Graphics,System.Drawing.Rectangle)">
+            <summary>
+            Initializes a new instance of the DrawEventArgs class.
+            </summary>
+        </member>
+        <member name="M:MindFusion.UI.WinForms.DrawEventArgs.#ctor(System.Windows.Forms.Control,System.Drawing.Graphics,System.Drawing.Rectangle)">
+            <summary>
+            Initializes a new instance of the DrawEventArgs class.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.WinForms.DrawEventArgs.Graphics">
+            <summary>
+            Gets the target graphics.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.WinForms.DrawEventArgs.Bounds">
+            <summary>
+            Gets the bounding rectangle of the element being drawn.
+            </summary>
+        </member>
+        <member name="M:MindFusion.UI.WinForms.ButtonDrawEventArgs.#ctor(MindFusion.UI.WinForms.ButtonStates,System.Drawing.Graphics,System.Drawing.Rectangle)">
+            <summary>
+            Intializes a new instance of the ButtonDrawEventArgs class.
+            </summary>
+        </member>
+        <member name="M:MindFusion.UI.WinForms.ButtonDrawEventArgs.DrawFocus">
+            <summary>
+            Draws a focus rectangle.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.WinForms.ButtonDrawEventArgs.State">
+            <summary>
+            Gets the button state.
+            </summary>
+        </member>
+        <member name="T:MindFusion.UI.WinForms.ScrollBarDrawEventArgs">
+            <summary>
+            Encapsulates information for scroll bar custom drawing.
+            </summary>
+        </member>
+        <member name="M:MindFusion.UI.WinForms.ScrollBarDrawEventArgs.#ctor(MindFusion.UI.WinForms.ScrollBarDrawElement,System.Drawing.Graphics,System.Drawing.Rectangle)">
+            <summary>
+            Intializes a new instance of the ScrollBarDrawEventArgs class.
+            </summary>
+        </member>
+        <member name="M:MindFusion.UI.WinForms.ScrollBarDrawEventArgs.DrawFocus">
+            <summary>
+            Draws a focus rectangle inside the drawn element.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.WinForms.ScrollBarDrawEventArgs.Element">
+            <summary>
+            Gets the element being drawn.
+            </summary>
+        </member>
+        <member name="T:MindFusion.UI.WinForms.ButtonStates">
+            <summary>
+            Specifies the possible button states.
+            </summary>
+        </member>
+        <member name="F:MindFusion.UI.WinForms.ButtonStates.None">
+            <summary>
+            The button is neither hovered nor pushed.
+            </summary>
+        </member>
+        <member name="F:MindFusion.UI.WinForms.ButtonStates.Hovered">
+            <summary>
+            The button is pointed by the mouse.
+            </summary>
+        </member>
+        <member name="F:MindFusion.UI.WinForms.ButtonStates.Pushed">
+            <summary>
+            The button is pressed.
+            </summary>
+        </member>
+        <member name="T:MindFusion.UI.WinForms.ScrollDirections">
+            <summary>
+            Specifies the scrolling direction.
+            </summary>
+        </member>
+        <member name="F:MindFusion.UI.WinForms.ScrollDirections.None">
+            <summary>
+            Indicates no scrolling.
+            </summary>
+        </member>
+        <member name="F:MindFusion.UI.WinForms.ScrollDirections.Increment">
+            <summary>
+            Indicates incrementing.
+            </summary>
+        </member>
+        <member name="F:MindFusion.UI.WinForms.ScrollDirections.Decrement">
+            <summary>
+            Indicates decrementing.
+            </summary>
+        </member>
+        <member name="F:MindFusion.UI.WinForms.ScrollDirections.DontCare">
+            <summary>
+            Indicates any direction.
+            </summary>
+        </member>
+        <member name="T:MindFusion.UI.WinForms.ScrollBarDrawElement">
+            <summary>
+            Specifies which element of a scroll bar is being drawn.
+            </summary>
+        </member>
+        <member name="F:MindFusion.UI.WinForms.ScrollBarDrawElement.ButtonNormal">
+            <summary>
+            Indicates a button or thumb is being drawn in normal state.
+            </summary>
+        </member>
+        <member name="F:MindFusion.UI.WinForms.ScrollBarDrawElement.ButtonHovered">
+            <summary>
+            Indicates a button or thumb is being drawn in hovered state.
+            </summary>
+        </member>
+        <member name="F:MindFusion.UI.WinForms.ScrollBarDrawElement.ButtonPushed">
+            <summary>
+            Indicates a button or thumb is being drawn in pushed state.
+            </summary>
+        </member>
+        <member name="F:MindFusion.UI.WinForms.ScrollBarDrawElement.Back">
+            <summary>
+            Indicates the scroll bar background is being drawn in normal state.
+            </summary>
+        </member>
+        <member name="F:MindFusion.UI.WinForms.ScrollBarDrawElement.BackScroll">
+            <summary>
+            Indicates the scroll bar background is being drawn in clicked state.
+            </summary>
+        </member>
+        <member name="T:MindFusion.UI.WinForms.CustomDraw">
+            <summary>
+            Specifies possible custom-drawing styles for buttons.
+            </summary>
+        </member>
+        <member name="F:MindFusion.UI.WinForms.CustomDraw.None">
+            <summary>
+            The button is not custom drawn.
+            </summary>
+        </member>
+        <member name="F:MindFusion.UI.WinForms.CustomDraw.Extra1">
+            <summary>
+            The custom drawing occurs after the button's ordinary painting,
+            but before the image and text are drawn.
+            </summary>
+        </member>
+        <member name="F:MindFusion.UI.WinForms.CustomDraw.Extra2">
+            <summary>
+            The custom drawing occurs after the button's ordinary and image drawing
+            and before text is drawn.
+            </summary>
+        </member>
+        <member name="F:MindFusion.UI.WinForms.CustomDraw.Extra3">
+            <summary>
+            The custom drawing occurs after all button elements are drawn.
+            </summary>
+        </member>
+        <member name="F:MindFusion.UI.WinForms.CustomDraw.Full">
+            <summary>
+            The custom drawing occurs instead of the button's ordinary painting.
+            </summary>
+        </member>
+        <member name="T:MindFusion.UI.WinForms.DockControl">
+            <summary>
+            Enables docking of user interface elements.
+            </summary>
+        </member>
+        <member name="F:MindFusion.UI.WinForms.DockControl.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:MindFusion.UI.WinForms.DockControl.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:MindFusion.UI.WinForms.DockControl.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify 
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:MindFusion.UI.WinForms.DockControl.#ctor">
+            <summary>
+            Initializes a new instance of the DockControl class.
+            </summary>
+        </member>
+        <member name="M:MindFusion.UI.WinForms.DockControl.OnPaint(System.Windows.Forms.PaintEventArgs)">
+            <summary>
+            Control.OnPaint override.
+            </summary>
+        </member>
+        <member name="M:MindFusion.UI.WinForms.DockControl.CloseItem(MindFusion.UI.WinForms.DockItem)">
+            <summary>
+            Closes the specified item.
+            </summary>
+            <param name="item">
+            The item to close.
+            </param>
+        </member>
+        <member name="M:MindFusion.UI.WinForms.DockControl.UpdateLayout">
+            <summary>
+            Forces an update of the dock layout, usually after a change to the control properties.
+            </summary>
+        </member>
+        <member name="M:MindFusion.UI.WinForms.DockControl.BeginInit">
+            <summary>
+            Start initialization.
+            </summary>
+        </member>
+        <member name="M:MindFusion.UI.WinForms.DockControl.EndInit">
+            <summary>
+            End initialization.
+            </summary>
+        </member>
+        <member name="M:MindFusion.UI.WinForms.DockControl.FindAllItems">
+            <summary>
+            Returns a list with all currently opened item.
+            </summary>
+            <returns>
+            A list of DockItem objects.
+            </returns>
+        </member>
+        <member name="M:MindFusion.UI.WinForms.DockControl.ActivateItem(MindFusion.UI.WinForms.DockItem)">
+            <summary>
+            Attempts to activate and focus the specified dock item.
+            </summary>
+            <param name="item">
+            The item to activate.
+            </param>
+        </member>
+        <member name="M:MindFusion.UI.WinForms.DockControl.FindFocusedItem">
+            <summary>
+            Gets the DockItem, which holds the input focus.
+            </summary>
+        </member>
+        <member name="M:MindFusion.UI.WinForms.DockControl.GetSelectedDocument">
+            <summary>
+            Gets the currently active document.
+            </summary>
+        </member>
+        <member name="M:MindFusion.UI.WinForms.DockControl.SaveToXml(System.String)">
+            <summary>
+            Saves the layout of the dock control to the specified file.
+            </summary>
+            <param name="fileName">
+            The name of the file to save to.
+            </param>
+        </member>
+        <member name="M:MindFusion.UI.WinForms.DockControl.SaveToXml(System.Xml.Linq.XContainer)">
+            <summary>
+            Saves the layout of the dock control under the specified XML node.
+            </summary>
+        </member>
+        <member name="M:MindFusion.UI.WinForms.DockControl.LoadFromXml(System.String)">
+            <summary>
+            Loads the layout of the dock control from the specified file.
+            </summary>
+            <param name="fileName">
+            The name of the file to load from.
+            </param>
+        </member>
+        <member name="M:MindFusion.UI.WinForms.DockControl.LoadFromXml(System.Xml.Linq.XContainer)">
+            <summary>
+            Loads the layout of the dock control from the specified XML node.
+            </summary>
+        </member>
+        <member name="F:MindFusion.UI.WinForms.DockControl.CurrentVersion">
+            <summary>
+            Current version of chart file format.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.WinForms.DockControl.LicenseKey">
+            <summary>
+            Gets or sets the license key of the control.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.WinForms.DockControl.DockPreviewColor">
+            <summary>
+            Gets or sets the color of the preview form.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.WinForms.DockControl.ButtonForeColor">
+            <summary>
+            Gets or sets the content color of the buttons in the header of the dock windows.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.WinForms.DockControl.BorderColor">
+            <summary>
+            Gets or sets the border color of the dock elements.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.WinForms.DockControl.HeaderStartColor">
+            <summary>
+            Gets or sets the first color of the gradient brush, used to fill
+            the header of the focused dock windows.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.WinForms.DockControl.HeaderEndColor">
+            <summary>
+            Gets or sets the second color of the gradient brush, used to fill
+            the header of the focused dock windows.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.WinForms.DockControl.InactiveHeaderStartColor">
+            <summary>
+            Gets or sets the first color of the gradient brush, used to fill
+            the header of dock windows that are not focused.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.WinForms.DockControl.InactiveHeaderEndColor">
+            <summary>
+            Gets or sets the second color of the gradient brush, used to fill
+            the header of dock windows that are not focused.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.WinForms.DockControl.InactiveSelectedHeaderStartColor">
+            <summary>
+            Gets or sets the first color of the gradient brush, used to fill
+            the header of selected dock windows that are not focused.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.WinForms.DockControl.InactiveSelectedHeaderEndColor">
+            <summary>
+            Gets or sets the second color of the gradient brush, used to fill
+            the header of selected dock windows that are not focused.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.WinForms.DockControl.ContentStartColor">
+            <summary>
+            Gets or sets the first color of the gradient brush, used to fill
+            the content of the dock windows.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.WinForms.DockControl.ContentEndColor">
+            <summary>
+            Gets or sets the second color of the gradient brush, used to fill
+            the content of the dock windows.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.WinForms.DockControl.HoverStartColor">
+            <summary>
+            Gets or sets the first color of the gradient brush, used to fill
+            the tabs and the buttons when the user hovers over them with the mouse.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.WinForms.DockControl.HoverEndColor">
+            <summary>
+            Gets or sets the second color of the gradient brush, used fill
+            the tabs and the buttons when the user hovers over them with the mouse.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.WinForms.DockControl.HoverBorderColor">
+            <summary>
+            Gets or sets the border color of the tabs and the buttons
+            when the user hovers over them with the mouse.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.WinForms.DockControl.TabDocumentStartColor">
+            <summary>
+            Gets or sets the first color of the gradient brush, used to draw the tab control.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.WinForms.DockControl.TabDocumentEndColor">
+            <summary>
+            Gets or sets the second color of the gradient brush, used to draw the tab control.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.WinForms.DockControl.TabDocumentBorderColor">
+            <summary>
+            Gets or sets the border color of the tab control.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.WinForms.DockControl.ComplexTabStartColor">
+            <summary>
+            Gets or sets the first color of the gradient brush, used to fill
+            unselected tabs in the tab control.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.WinForms.DockControl.ComplexTabEndColor">
+            <summary>
+            Gets or sets the second color of the gradient brush, used to fill
+            unselected tabs in the tab control.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.WinForms.DockControl.TabStartColor">
+            <summary>
+            Gets or sets the first color of the gradient brush, used to fill
+            unselected tabs on every dock window exept the tabbed document.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.WinForms.DockControl.TabEndColor">
+            <summary>
+            Gets or sets the second color of the gradient brush, used to fill
+            unselected tabs on every dock window exept the tabbed document.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.WinForms.DockControl.InactiveForeColor">
+            <summary>
+            Gets or sets the text color of inactive elements.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.WinForms.DockControl.DockHandlerColors">
+            <summary>
+            Gets or sets the colors of the gradient brush, used to fill the dock handlers.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.WinForms.DockControl.DockedTitleBarButtons">
+            <summary>
+            Get the list of all docked title bar buttons.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.WinForms.DockControl.UndockedTitleBarButtons">
+            <summary>
+            Get the list of all undocked title bar buttons.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.WinForms.DockControl.TabbedTitleBarButtons">
+            <summary>
+            Get the list of all tabbed title bar buttons.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.WinForms.DockControl.Items">
+            <summary>
+            Get the list of all items in the control.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.WinForms.DockControl.StringFormat">
+            <summary>
+            Gets or sets the string format of the texts in the control.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.WinForms.DockControl.TabOffset">
+            <summary>
+            Gets or sets the space between tabs and the adjacent elements.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.WinForms.DockControl.AutoHideOffset">
+            <summary>
+            Gets or sets the space between autohide tabs and the elements.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.WinForms.DockControl.MinWindowSize">
+            <summary>
+            Gets or sets the minimum size of the dock windows.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.WinForms.DockControl.SplitterSize">
+            <summary>
+            Gets or sets the size of the splitters.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.WinForms.DockControl.TabbedDocumentPadding">
+            <summary>
+            Gets or sets the padding of the tabbed document.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.WinForms.DockControl.DocumentTabStyle">
+            <summary>
+            Gets or sets the tab style of tabbed documents.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.WinForms.DockControl.MaxDocumentTabSize">
+            <summary>
+            Gets or sets the maximum tab size of tabbed documents.
+            </summary>
+        </member>
+        <member name="E:MindFusion.UI.WinForms.DockControl.ItemLoading">
+            <summary>
+            Raised for each DockItem when the control is loaded from a file.
+            </summary>
+        </member>
+        <member name="E:MindFusion.UI.WinForms.DockControl.WindowClosing">
+            <summary>
+            Raised when a window is about to be closed.
+            </summary>
+        </member>
+        <member name="E:MindFusion.UI.WinForms.DockControl.WindowClosed">
+            <summary>
+            Raised when a window is closed.
+            </summary>
+        </member>
+        <member name="E:MindFusion.UI.WinForms.DockControl.ItemActivated">
+            <summary>
+            Raised when an item is activated.
+            </summary>
+        </member>
+        <member name="E:MindFusion.UI.WinForms.DockControl.ItemDeactivated">
+            <summary>
+            Raised when an item is deactivated.
+            </summary>
+        </member>
+        <member name="T:MindFusion.UI.WinForms.XmlSerializationContext">
+            <summary>
+            Contains methods that can help you serialize/deserialize
+            MindFusion.Scheduling items to/from XML documents.
+            </summary>
+        </member>
+        <member name="T:MindFusion.UI.WinForms.SerializationContext">
+            <summary>
+            This class contains information required to serialize a
+            Chart element to and from a binary stream or XML document.
+            </summary>
+        </member>
+        <member name="M:MindFusion.UI.WinForms.SerializationContext.#ctor(MindFusion.UI.WinForms.DockControl,System.Int32)">
+            <summary>
+            Initializes a new instance of the SerializationContext class.
+            </summary>
+        </member>
+        <member name="M:MindFusion.UI.WinForms.SerializationContext.#ctor(MindFusion.UI.WinForms.DockControl)">
+            <summary>
+            Initializes a new instance of the SerializationContext class.
+            </summary>
+        </member>
+        <member name="F:MindFusion.UI.WinForms.SerializationContext._dockControl">
+            <summary>
+            Raised when the serialization or deserialization has completed successfully.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.WinForms.SerializationContext.FileVersion">
+            <summary>
+            Gets the format revision number of the file being loaded.
+            </summary>
+            <remarks>
+            During serialization this is the current file version of MindFusion.Scheduling.
+            </remarks>
+        </member>
+        <member name="P:MindFusion.UI.WinForms.SerializationContext.DockControl">
+            <summary>
+            Gets a reference to the schedule currently being serialized
+            or deserialized.
+            </summary>
+        </member>
+        <member name="M:MindFusion.UI.WinForms.XmlSerializationContext.#ctor(MindFusion.UI.WinForms.DockControl,System.Int32,System.Xml.Linq.XDocument)">
+            <summary>
+            Initializes a new instance of the XmlSerializationContext class.
+            </summary>       
+            <param name="fileVersion">
+            The file version of the file being deserialized.
+            </param>
+            <param name="document">
+            The .NET XDocument to serialize/deserialize to/from.
+            </param>
+            /// <param name="dockControl">
+            The associated dock control.
+            </param>
+        </member>
+        <member name="M:MindFusion.UI.WinForms.XmlSerializationContext.#ctor(MindFusion.UI.WinForms.DockControl,System.Xml.Linq.XDocument)">
+            <summary>
+            Initializes a new instance of the XmlSerializationContext class.
+            </summary>       
+            <param name="document">
+            The .NET XDocument to serialize/deserialize to/from.
+            </param>
+            <param name="dockControl">
+            The associated dock control.
+            </param>
+        </member>
+        <member name="M:MindFusion.UI.WinForms.XmlSerializationContext.AddChildElement(System.String,System.Xml.Linq.XContainer)">
+            <summary>
+            Adds a new child node with the specified name to
+            the specified parent node.
+            </summary>
+        </member>
+        <member name="M:MindFusion.UI.WinForms.XmlSerializationContext.AddChildElement(System.String,System.Xml.Linq.XContainer,System.String)">
+            <summary>
+            Adds a new child node with the specified name and
+            value to the specified parent node.
+            </summary>
+        </member>
+        <member name="M:MindFusion.UI.WinForms.XmlSerializationContext.WriteString(System.String,System.String,System.Xml.Linq.XContainer)">
+            <summary>
+            Writes a string value with the specified name.
+            </summary>
+        </member>
+        <member name="M:MindFusion.UI.WinForms.XmlSerializationContext.WriteBool(System.Boolean,System.String,System.Xml.Linq.XContainer)">
+            <summary>
+            Writes a boolean value with the specified name.
+            </summary>
+        </member>
+        <member name="M:MindFusion.UI.WinForms.XmlSerializationContext.WriteInt(System.Int32,System.String,System.Xml.Linq.XContainer)">
+            <summary>
+            Writes an integer value with the specified name.
+            </summary>
+        </member>
+        <member name="M:MindFusion.UI.WinForms.XmlSerializationContext.WriteLong(System.Int64,System.String,System.Xml.Linq.XContainer)">
+            <summary>
+            Writes a long value with the specified name.
+            </summary>
+        </member>
+        <member name="M:MindFusion.UI.WinForms.XmlSerializationContext.WriteFloat(System.Single,System.String,System.Xml.Linq.XContainer)">
+            <summary>
+            Writes a float value with the specified name.
+            </summary>
+        </member>
+        <member name="M:MindFusion.UI.WinForms.XmlSerializationContext.WriteSizeF(System.Drawing.SizeF,System.String,System.Xml.Linq.XContainer)">
+            <summary>
+            Writes a SizeF with the specified name.
+            </summary>
+        </member>
+        <member name="M:MindFusion.UI.WinForms.XmlSerializationContext.WriteSize(System.Drawing.Size,System.String,System.Xml.Linq.XContainer)">
+            <summary>
+            Writes a Size with the specified name.
+            </summary>
+        </member>
+        <member name="M:MindFusion.UI.WinForms.XmlSerializationContext.WriteDouble(System.Double,System.String,System.Xml.Linq.XContainer)">
+            <summary>
+            Writes a double value with the specified name.
+            </summary>
+        </member>
+        <member name="M:MindFusion.UI.WinForms.XmlSerializationContext.WritePointF(System.Drawing.PointF,System.String,System.Xml.Linq.XContainer)">
+            <summary>
+            Writes a PointF with the specified name.
+            </summary>
+        </member>
+        <member name="M:MindFusion.UI.WinForms.XmlSerializationContext.WritePoint(System.Drawing.Point,System.String,System.Xml.Linq.XContainer)">
+            <summary>
+            Writes a PointF with the specified name.
+            </summary>
+        </member>
+        <member name="M:MindFusion.UI.WinForms.XmlSerializationContext.FromPointF(System.Drawing.PointF)">
+            <summary>
+            Converts the specified PointF object to a string.
+            </summary>
+        </member>
+        <member name="M:MindFusion.UI.WinForms.XmlSerializationContext.WriteBrush(System.Drawing.Brush,System.String,System.Xml.Linq.XContainer)">
+            <summary>
+            Writes a reference to the specified brush. The brush
+            is registered within the internal hashtable for
+            subsequent serialization.
+            </summary>
+        </member>
+        <member name="M:MindFusion.UI.WinForms.XmlSerializationContext.WriteFloatArray(System.Single[],System.String,System.String,System.Xml.Linq.XContainer)">
+            <summary>
+            Writes the specified array.
+            </summary>
+        </member>
+        <member name="M:MindFusion.UI.WinForms.XmlSerializationContext.WriteColorArray(System.Drawing.Color[],System.String,System.String,System.Xml.Linq.XContainer)">
+            <summary>
+            Writes the specified array.
+            </summary>
+        </member>
+        <member name="M:MindFusion.UI.WinForms.XmlSerializationContext.WritePen(System.Drawing.Pen,System.String,System.Xml.Linq.XContainer)">
+            <summary>
+            Writes the specified pen.
+            </summary>
+        </member>
+        <member name="M:MindFusion.UI.WinForms.XmlSerializationContext.WriteDateTime(System.DateTime,System.String,System.Xml.Linq.XContainer)">
+            <summary>
+            Writes the specified DateTime object.
+            </summary>
+        </member>
+        <member name="M:MindFusion.UI.WinForms.XmlSerializationContext.WriteMargins(System.Drawing.Printing.Margins,System.String,System.Xml.Linq.XContainer)">
+            <summary>
+            Writes the Margins property.
+            </summary>
+        </member>
+        <member name="M:MindFusion.UI.WinForms.XmlSerializationContext.WriteFont(System.Drawing.Font,System.String,System.Xml.Linq.XContainer)">
+            <summary>
+            Writes the specified font.
+            </summary>
+        </member>
+        <member name="M:MindFusion.UI.WinForms.XmlSerializationContext.WriteEnum(System.Object,System.String,System.Xml.Linq.XContainer)">
+            <summary>
+            Writes the specified enum value.
+            </summary>
+        </member>
+        <member name="M:MindFusion.UI.WinForms.XmlSerializationContext.WriteStream(System.IO.Stream,System.String,System.Xml.Linq.XContainer)">
+            <summary>
+            Writes the specified stream.
+            </summary>
+        </member>
+        <member name="M:MindFusion.UI.WinForms.XmlSerializationContext.WriteColor(System.Drawing.Color,System.String,System.Xml.Linq.XContainer)">
+            <summary>
+            Writes the specified color.
+            </summary>
+        </member>
+        <member name="M:MindFusion.UI.WinForms.XmlSerializationContext.WriteObject(System.Object,System.String,System.Xml.Linq.XContainer,System.Boolean)">
+            <summary>
+            Writes the specified object under the specified name.
+            </summary>
+        </member>
+        <member name="M:MindFusion.UI.WinForms.XmlSerializationContext.WriteObject(System.Object,System.String,System.Xml.Linq.XContainer)">
+            <summary>
+            Writes the specified object under the specified name.
+            </summary>
+        </member>
+        <member name="M:MindFusion.UI.WinForms.XmlSerializationContext.WriteValueList(System.Collections.IList,System.String,System.Xml.Linq.XContainer)">
+            <summary>
+            Writes the specified list of objects under the specified name.
+            </summary>
+        </member>
+        <member name="M:MindFusion.UI.WinForms.XmlSerializationContext.ReadString(System.String,System.Xml.Linq.XContainer)">
+            <summary>
+            Reads a string value with the specified name.
+            </summary>
+        </member>
+        <member name="M:MindFusion.UI.WinForms.XmlSerializationContext.ReadBool(System.String,System.Xml.Linq.XContainer,System.Boolean)">
+            <summary>
+            Reads a boolean value with the specified name.
+            </summary>
+            <remarks>
+            If there is no element with the specified name, returns the specified
+            default value.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.UI.WinForms.XmlSerializationContext.ReadBool(System.String,System.Xml.Linq.XContainer)">
+            <summary>
+            Reads a boolean value with the specified name.
+            </summary>
+        </member>
+        <member name="M:MindFusion.UI.WinForms.XmlSerializationContext.ReadInt(System.String,System.Xml.Linq.XContainer)">
+            <summary>
+            Reads an integer value with the specified name.
+            </summary>
+        </member>
+        <member name="M:MindFusion.UI.WinForms.XmlSerializationContext.ReadLong(System.String,System.Xml.Linq.XContainer)">
+            <summary>
+            Reads a long value with the specified name.
+            </summary>
+        </member>
+        <member name="M:MindFusion.UI.WinForms.XmlSerializationContext.ReadFloat(System.String,System.Xml.Linq.XContainer)">
+            <summary>
+            Reads a float value with the specified name.
+            </summary>
+        </member>
+        <member name="M:MindFusion.UI.WinForms.XmlSerializationContext.ReadDouble(System.String,System.Xml.Linq.XContainer)">
+            <summary>
+            Reads a double value with the specified name.
+            </summary>
+        </member>
+        <member name="M:MindFusion.UI.WinForms.XmlSerializationContext.ReadSizeF(System.String,System.Xml.Linq.XContainer)">
+            <summary>
+            Reads a SizeF object with the specified name.
+            </summary>
+        </member>
+        <member name="M:MindFusion.UI.WinForms.XmlSerializationContext.ReadSize(System.String,System.Xml.Linq.XContainer)">
+            <summary>
+            Reads a Size object with the specified name.
+            </summary>
+        </member>
+        <member name="M:MindFusion.UI.WinForms.XmlSerializationContext.ReadPointF(System.String,System.Xml.Linq.XContainer)">
+            <summary>
+            Reads a PointF object with the specified name.
+            </summary>
+        </member>
+        <member name="M:MindFusion.UI.WinForms.XmlSerializationContext.ReadPoint(System.String,System.Xml.Linq.XContainer)">
+            <summary>
+            Reads a Point object with the specified name.
+            </summary>
+        </member>
+        <member name="M:MindFusion.UI.WinForms.XmlSerializationContext.ToPointF(System.String)">
+            <summary>
+            Converts the specified string to a Point object.
+            </summary>
+        </member>
+        <member name="M:MindFusion.UI.WinForms.XmlSerializationContext.ReadBrush(System.String,System.Xml.Linq.XContainer)">
+            <summary>
+            Reads a MindFusion.Drawing.Brush object with the specified name.
+            </summary>
+        </member>
+        <member name="M:MindFusion.UI.WinForms.XmlSerializationContext.ReadFloatArray(System.String,System.String,System.Xml.Linq.XContainer)">
+            <summary>
+            Reads a float array with the specified name.
+            </summary>
+        </member>
+        <member name="M:MindFusion.UI.WinForms.XmlSerializationContext.ReadColorArray(System.String,System.String,System.Xml.Linq.XContainer)">
+            <summary>
+            Reads a color array with the specified name.
+            </summary>
+        </member>
+        <member name="M:MindFusion.UI.WinForms.XmlSerializationContext.ReadPen(System.String,System.Xml.Linq.XContainer)">
+            <summary>
+            Reads a MindFusion.Drawing.Pen object with the specified name.
+            </summary>
+        </member>
+        <member name="M:MindFusion.UI.WinForms.XmlSerializationContext.ReadDateTime(System.String,System.Xml.Linq.XContainer)">
+            <summary>
+            Reads a DateTime object with the specified name.
+            </summary>
+        </member>
+        <member name="M:MindFusion.UI.WinForms.XmlSerializationContext.ReadFont(System.String,System.Xml.Linq.XContainer)">
+            <summary>
+            Reads a Font object with the specified name.
+            </summary>
+        </member>
+        <member name="M:MindFusion.UI.WinForms.XmlSerializationContext.ReadEnum(System.String,System.Xml.Linq.XContainer)">
+            <summary>
+            Reads an enum value with the specified name.
+            </summary>
+        </member>
+        <member name="M:MindFusion.UI.WinForms.XmlSerializationContext.ReadStream(System.String,System.Xml.Linq.XContainer)">
+            <summary>
+            Reads a stream with the specified name.
+            </summary>
+        </member>
+        <member name="M:MindFusion.UI.WinForms.XmlSerializationContext.ReadColor(System.String,System.Xml.Linq.XContainer)">
+            <summary>
+            Reads a color with the specified name.
+            </summary>
+        </member>
+        <member name="M:MindFusion.UI.WinForms.XmlSerializationContext.ReadObject(System.String,System.Xml.Linq.XContainer)">
+            <summary>
+            Reads an object with the specified name.
+            </summary>
+        </member>
+        <member name="M:MindFusion.UI.WinForms.XmlSerializationContext.SelectSingleNode(System.Xml.Linq.XContainer,System.String)">
+            <summary>
+            Selects a node with the specified name.
+            </summary>
+        </member>
+        <member name="F:MindFusion.UI.WinForms.XmlSerializationContext.document">
+            <summary>
+            The underlying document.
+            </summary>
+        </member>
+        <member name="F:MindFusion.UI.WinForms.XmlSerializationContext.formatter">
+            <summary>
+            A binary formatter used when serializing arbitrary objects.
+            </summary>
+        </member>
+        <member name="F:MindFusion.UI.WinForms.XmlSerializationContext.classVersion">
+            <summary>
+            The class version of the item currently being deserialized.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.WinForms.XmlSerializationContext.XmlDocument">
+            <summary>
+            Gets the underlying XML document.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.WinForms.XmlSerializationContext.ClassVersion">
+            <summary>
+            Gets the class version of the currently deserialized item.
+            </summary>
+            <remarks>
+            This property is only useful when deserializing items.
+            </remarks>
+        </member>
+        <member name="T:MindFusion.UI.WinForms.SizeMode">
+            <summary>
+            Specifies how the drawing is positioned within a SvgViewer control.
+            </summary>
+        </member>
+        <member name="F:MindFusion.UI.WinForms.SizeMode.Normal">
+            <summary>
+            The drawing is placed in the upper-left corner of the SvgViewer. 
+            The drawing is clipped if it is larger than the SvgViewer it is contained in.
+            </summary>
+        </member>
+        <member name="F:MindFusion.UI.WinForms.SizeMode.Stretch">
+            <summary>
+            The drawing within the SvgViewer is stretched or shrunk to fit the size of the SvgViewer.
+            </summary>
+        </member>
+        <member name="F:MindFusion.UI.WinForms.SizeMode.AutoSize">
+            <summary>
+            The SvgViewer is sized equal to the size of the drawing that it contains.
+            </summary>
+        </member>
+        <member name="F:MindFusion.UI.WinForms.SizeMode.Center">
+            <summary>
+            The drawing is displayed in the center if the SvgViewer is larger than the drawing. 
+            If the drawing is larger than the SvgViewer, the drawing is placed in the center of the SvgViewer and the outside edges are clipped.
+            </summary>
+        </member>
+        <member name="F:MindFusion.UI.WinForms.SizeMode.Zoom">
+            <summary>
+            The size of the drawing is increased or decreased maintaining the size ratio.
+            </summary>
+        </member>
+        <member name="T:MindFusion.UI.WinForms.Converter">
+            <summary>
+            Provides capabilities to convert various types to and from strings
+            in a cutlure-independent way.
+            </summary>
+        </member>
+        <member name="M:MindFusion.UI.WinForms.Converter.#ctor">
+            <summary>
+            Initializes a new instance of the Converter class.
+            </summary>
+        </member>
+        <member name="M:MindFusion.UI.WinForms.Converter.ToBoolean(System.String)">
+            <summary>
+            Converts the specified string value to bool.
+            </summary>
+            <param name="s">
+            The string value to convert from.
+            </param>
+            <returns>
+            A boolean value that is deserialized from the specified string.
+            </returns>
+        </member>
+        <member name="M:MindFusion.UI.WinForms.Converter.FromBoolean(System.Boolean)">
+            <summary>
+            Converts the specified bool value to string.
+            </summary>
+            <param name="val">
+            The value to convert.
+            </param>
+            <returns>
+            A string representing the specified value.
+            </returns>
+        </member>
+        <member name="M:MindFusion.UI.WinForms.Converter.ToDecimal(System.String)">
+            <summary>
+            Converts the specified string value to decimal.
+            </summary>
+            <param name="s">
+            The string value to convert from.
+            </param>
+            <returns>
+            A decimal value that is deserialized from the specified string.
+            </returns>
+        </member>
+        <member name="M:MindFusion.UI.WinForms.Converter.FromDecimal(System.Decimal)">
+            <summary>
+            Converts the specified decimal to string.
+            </summary>
+            <param name="val">
+            The value to convert.
+            </param>
+            <returns>
+            A string representing the specified value.
+            </returns>
+        </member>
+        <member name="M:MindFusion.UI.WinForms.Converter.ToSingle(System.String)">
+            <summary>
+            Converts the specified string value to float.
+            </summary>
+            <param name="s">
+            The string value to convert from.
+            </param>
+            <returns>
+            A float value that is deserialized from the specified string.
+            </returns>
+        </member>
+        <member name="M:MindFusion.UI.WinForms.Converter.FromSingle(System.Single)">
+            <summary>
+            Converts the specified float value to string.
+            </summary>
+            <param name="val">
+            The value to convert.
+            </param>
+            <returns>
+            A string representing the specified value.
+            </returns>
+        </member>
+        <member name="M:MindFusion.UI.WinForms.Converter.ToDouble(System.String)">
+            <summary>
+            Converts the specifed string value to double.
+            </summary>
+            <param name="s">
+            The string value to convert from.
+            </param>
+            <returns>
+            A double value that is deserialized from the specified string.
+            </returns>
+        </member>
+        <member name="M:MindFusion.UI.WinForms.Converter.FromDouble(System.Double)">
+            <summary>
+            Converts the specified double value to string.
+            </summary>
+            <param name="val">
+            The value to convert.
+            </param>
+            <returns>
+            A string representing the specified value.
+            </returns>
+        </member>
+        <member name="M:MindFusion.UI.WinForms.Converter.ToByte(System.String)">
+            <summary>
+            Converts the specified string value to byte value.
+            </summary>
+            <param name="s">
+            The string value to convert from.
+            </param>
+            <returns>
+            A byte value that is deserialized from the specified string.
+            </returns>
+        </member>
+        <member name="M:MindFusion.UI.WinForms.Converter.FromByte(System.Byte)">
+            <summary>
+            Converts the specified byte value to string.
+            </summary>
+            <param name="val">
+            The value to convert.
+            </param>
+            <returns>
+            A string representing the specified value.
+            </returns>
+        </member>
+        <member name="M:MindFusion.UI.WinForms.Converter.ToSByte(System.String)">
+            <summary>
+            Converts the specified string value to 8-bit signed integer.
+            </summary>
+            <param name="s">
+            The string value to convert from.
+            </param>
+            <returns>
+            An 8-bit signed integer value that is deserialized from the
+            specified string.
+            </returns>
+        </member>
+        <member name="M:MindFusion.UI.WinForms.Converter.FromSByte(System.SByte)">
+            <summary>
+            Converts the specified 8-bit signed integer to string.
+            </summary>
+            <param name="val">
+            The value to convert.
+            </param>
+            <returns>
+            A string representing the specified value.
+            </returns>
+        </member>
+        <member name="M:MindFusion.UI.WinForms.Converter.ToUint16(System.String)">
+            <summary>
+            Converts the specified string value to unsigned 16-bit integer.
+            </summary>
+            <param name="s">
+            The string value to convert from.
+            </param>
+            <returns>
+            An unsigned 16-bit integer value that is deserialized from
+            the specified string.
+            </returns>
+        </member>
+        <member name="M:MindFusion.UI.WinForms.Converter.FromUInt16(System.UInt16)">
+            <summary>
+            Converts the specified unsigned 16-bit integer value to string.
+            </summary>
+            <param name="val">
+            The value to convert.
+            </param>
+            <returns>
+            A string representing the specified value.
+            </returns>
+        </member>
+        <member name="M:MindFusion.UI.WinForms.Converter.ToUint32(System.String)">
+            <summary>
+            Converts the specified string value to unsigned 32-bit integer.
+            </summary>
+            <param name="s">
+            The string value to convert from.
+            </param>
+            <returns>
+            An unsigned 32-bit integer value that is deserialized from
+            the specified string.
+            </returns>
+        </member>
+        <member name="M:MindFusion.UI.WinForms.Converter.FromUInt32(System.UInt32)">
+            <summary>
+            Converts the specified unsigned 32-bit integer value to string.
+            </summary>
+            <param name="val">
+            The value to convert.
+            </param>
+            <returns>
+            A string representing the specified value.
+            </returns>
+        </member>
+        <member name="M:MindFusion.UI.WinForms.Converter.ToUint64(System.String)">
+            <summary>
+            Converts the specified string value to unsigned 64-bit integer.
+            </summary>
+            <param name="s">
+            The string value to convert from.
+            </param>
+            <remarks>
+            An unsigned 64-bit integer value that is deserialized from
+            the specified string.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.UI.WinForms.Converter.FromUInt64(System.UInt64)">
+            <summary>
+            Converts the specified unsigned 64-bit integer value to string.
+            </summary>
+            <param name="val">
+            The value to convert.
+            </param>
+            <returns>
+            A string representing the specified value.
+            </returns>
+        </member>
+        <member name="M:MindFusion.UI.WinForms.Converter.ToChar(System.String)">
+            <summary>
+            Converts the specified string value to char.
+            </summary>
+            <param name="s">
+            The string value to convert from.
+            </param>
+            <returns>
+            A char value that is deserialized from the specified string.
+            </returns>
+        </member>
+        <member name="M:MindFusion.UI.WinForms.Converter.FromChar(System.Char)">
+            <summary>
+            Converts the specified char value to string.
+            </summary>
+            <param name="val">
+            The value to convert.
+            </param>
+            <returns>
+            A string representing the specified value.
+            </returns>
+        </member>
+        <member name="M:MindFusion.UI.WinForms.Converter.ToInt16(System.String)">
+            <summary>
+            Converts the specified string value to 16-bit integer.
+            </summary>
+            <param name="s">
+            The string value to convert from.
+            </param>
+            <returns>
+            A 16-bit integer value that is deserialized from the specified string.
+            </returns>
+        </member>
+        <member name="M:MindFusion.UI.WinForms.Converter.FromInt16(System.Int16)">
+            <summary>
+            Converts the specified 16-bit integer value to string.
+            </summary>
+            <param name="val">
+            The value to convert.
+            </param>
+            <returns>
+            A string representing the specified value.
+            </returns>
+        </member>
+        <member name="M:MindFusion.UI.WinForms.Converter.ToInt32(System.String)">
+            <summary>
+            Converts the specified string value to 32-bit integer.
+            </summary>
+            <param name="s">
+            The string value to convert from.
+            </param>
+            <returns>
+            A 32-bit integer value that is deserialized from the specified string.
+            </returns>
+        </member>
+        <member name="M:MindFusion.UI.WinForms.Converter.ToInt32(System.String,System.Int32)">
+            <summary>
+            Converts the specified string value to 32-bit integer without throwing
+            exceptions. In case the specified string cannot be converted, the
+            specified default value is returned.
+            </summary>
+            <param name="s">
+            The string value to convert from.
+            </param>
+            <param name="defaultValue">
+            The default value to return if s cannot be deserialized.
+            </param>
+            <returns>
+            A 32-bit integer value that is deserialized from the specified string.
+            </returns>
+        </member>
+        <member name="M:MindFusion.UI.WinForms.Converter.FromInt32(System.Int32)">
+            <summary>
+            Converts the specified 32-bit integer value to string.
+            </summary>
+            <param name="val">
+            The value to convert.
+            </param>
+            <returns>
+            A string representing the specified value.
+            </returns>
+        </member>
+        <member name="M:MindFusion.UI.WinForms.Converter.ToInt64(System.String)">
+            <summary>
+            Converts the specified string value to 64-bit integer.
+            </summary>
+            <param name="s">
+            The string value to convert from.
+            </param>
+            <returns>
+            A 64-bit integer value that is deserialized from the specified string.
+            </returns>
+        </member>
+        <member name="M:MindFusion.UI.WinForms.Converter.FromInt64(System.Int64)">
+            <summary>
+            Converts the specified 64-bit integer to string.
+            </summary>
+            <param name="val">
+            The value to convert.
+            </param>
+            <returns>
+            A string representing the specified value.
+            </returns>
+        </member>
+        <member name="M:MindFusion.UI.WinForms.Converter.ToColor(System.String)">
+            <summary>
+            Converts the specified string value to Color.
+            </summary>
+            <param name="s">
+            The string value to convert from.
+            </param>
+            <returns>
+            A Color value that is deserialized from the specified string.
+            </returns>
+        </member>
+        <member name="M:MindFusion.UI.WinForms.Converter.FromColor(System.Drawing.Color)">
+            <summary>
+            Converts the specified color value to string in the format #AARRGGBB.
+            </summary>
+            <param name="val">
+            The value to convert.
+            </param>
+            <returns>
+            A string representing the specified value.
+            </returns>
+        </member>
+        <member name="M:MindFusion.UI.WinForms.Converter.ImageFromString(System.String)">
+            <summary>
+            Converts the specified string value to image.
+            </summary>
+            <param name="s">
+            The string value to convert from.
+            </param>
+            <returns>
+            An instance of the .NET Image class that is deserialized
+            from the specified string.
+            </returns>
+        </member>
+        <member name="M:MindFusion.UI.WinForms.Converter.ToImageV4(System.String)">
+            <summary>
+            Converts the specified string value to image.
+            </summary>
+            <param name="s">
+            The string value to convert from.
+            </param>
+            <returns>
+            A .NET Image object that is deserialized from the specified string.
+            </returns>
+            <remarks>
+            This method is used in XML file format 4 and earlier.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.UI.WinForms.Converter.FromImageV4(System.Drawing.Image)">
+            <summary>
+            Converts the specified image to string.
+            </summary>
+            <param name="val">
+            The Image object to convert.
+            </param>
+            <returns>
+            A string representing the specified value.
+            </returns>
+            <remarks>
+            This method is used in XML file format 4 and earlier.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.UI.WinForms.Converter.ToImage(System.String)">
+            <summary>
+            Converts the specified string value to image.
+            </summary>
+        </member>
+        <member name="M:MindFusion.UI.WinForms.Converter.FromImage(System.Drawing.Image)">
+            <summary>
+            Converts the specified image to string.
+            </summary>
+            <param name="val">
+            The image object to convert.
+            </param>
+            <returns>
+            A string representing the specified value.
+            </returns>
+        </member>
+        <member name="M:MindFusion.UI.WinForms.Converter.ToStreamV4(System.String)">
+            <summary>
+            Converts the specified string value to stream.
+            </summary>
+            <param name="s">
+            The string value to convert from.
+            </param>
+            <returns>
+            A .NET Stream object that is deserialized from the specified string.
+            </returns>
+            <remarks>
+            This method is used in XML file format 4 and earlier.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.UI.WinForms.Converter.FromStreamV4(System.IO.MemoryStream)">
+            <summary>
+            Converts the specified memory stream to string.
+            </summary>
+            <param name="val">
+            The Stream object to convert.
+            </param>
+            <returns>
+            A string representing the specified value.
+            </returns>
+            <remarks>
+            This method is used in XML file format 4 and earlier.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.UI.WinForms.Converter.ToStream(System.String)">
+            <summary>
+            Converts the specified string value to stream.
+            </summary>
+            <param name="s">
+            The string value to convert from.
+            </param>
+            <returns>
+            A .NET Stream object that is deserialized from the specified string.
+            </returns>
+        </member>
+        <member name="M:MindFusion.UI.WinForms.Converter.FromStream(System.IO.Stream)">
+            <summary>
+            Converts the specified stream to string.
+            </summary>
+            <param name="val">
+            The Stream object to convert.
+            </param>
+            <returns>
+            A string representing the specified value.
+            </returns>
+        </member>
+        <member name="M:MindFusion.UI.WinForms.Converter.FromEnum(System.Object)">
+            <summary>
+            Converts the specified enum value to a string.
+            </summary>
+            <param name="val">
+            The value to convert.
+            </param>
+        </member>
+        <member name="M:MindFusion.UI.WinForms.Converter.ToEnum(System.Type,System.String)">
+            <summary>
+            Converts the specified string value to its corresponding
+            enumeration member of the specified type.
+            </summary>
+            <param name="type">
+            The type of the enumeration to convert to.
+            </param>
+            <param name="s">
+            The string value to convert from.
+            </param>
+            <returns>
+            A member of the specified enumeration that is deserialized from
+            the specified string, possibly a null reference (Nothing in Visual
+            Basic) if the deserialization failed.
+            </returns>
+        </member>
+        <member name="T:MindFusion.UI.WinForms.TitleBarButtons">
+            <summary>
+            Represents a set of TitleBarButton objects. The default set contains close button,
+            auto hide button and button that shows context menu. 
+            </summary>
+        </member>
+        <member name="M:MindFusion.UI.WinForms.TitleBarButtons.#cctor">
+            <summary>
+            Initializes a new instance of the TitleBarButtons class.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.WinForms.TitleBarButtons.CloseButton">
+            <summary>
+            Gets the close button of current item. 
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.WinForms.TitleBarButtons.AutoHideButton">
+            <summary>
+            Gets the auto hide button of current item. 
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.WinForms.TitleBarButtons.ShowContextMenuButton">
+            <summary>
+            Gets the context menu button of current item. 
+            </summary>
+        </member>
+        <member name="F:MindFusion.UI.WinForms.DockHandler.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:MindFusion.UI.WinForms.DockHandler.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:MindFusion.UI.WinForms.DockHandler.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify 
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:MindFusion.UI.WinForms.HScrollBar">
+            <summary>
+            Represents a custom-drawn horizontal scroll bar.
+            </summary>
+        </member>
+        <member name="M:MindFusion.UI.WinForms.HScrollBar.#ctor">
+            <summary>
+            Initializes a new instance of the HScrollBar class.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.WinForms.HScrollBar.DefaultSize">
+            <summary>
+            Gets the default size of the scroll bar.
+            </summary>
+        </member>
+        <member name="T:MindFusion.UI.WinForms.FocusPainter">
+            <summary>
+            Draws a focus rect of a button.
+            </summary>
+        </member>
+        <member name="F:MindFusion.UI.WinForms.FloatingForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:MindFusion.UI.WinForms.FloatingForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:MindFusion.UI.WinForms.FloatingForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:MindFusion.UI.WinForms.AutoHideForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:MindFusion.UI.WinForms.AutoHideForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:MindFusion.UI.WinForms.AutoHideForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:MindFusion.UI.WinForms.ItemEventArgs">
+            <summary>
+            Contains the arguments passed to DockItem events.
+            </summary>
+        </member>
+        <member name="M:MindFusion.UI.WinForms.ItemEventArgs.#ctor(MindFusion.UI.WinForms.DockItem)">
+            <summary>
+            Initializes a new instance of the ItemEventArgs class.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.WinForms.ItemEventArgs.Item">
+            <summary>
+            Gets or sets the DockItem relative to the event.
+            </summary>
+        </member>
+        <member name="T:MindFusion.UI.WinForms.ItemValidationEventArgs">
+            <summary>
+            Contains the arguments passed to DockItem validation events.
+            </summary>
+        </member>
+        <member name="M:MindFusion.UI.WinForms.ItemValidationEventArgs.#ctor(MindFusion.UI.WinForms.DockItem)">
+            <summary>
+            Initializes a new instance of the ItemValidationEventArgs class.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.WinForms.ItemValidationEventArgs.Confirm">
+            <summary>
+            Gets or sets a value indicating whether the operation is validated.
+            </summary>
+        </member>
+        <member name="T:MindFusion.UI.WinForms.DocumentTabStyle">
+            <summary>
+            Indicates the tab style of docked documents.
+            </summary>
+        </member>
+        <member name="F:MindFusion.UI.WinForms.DocumentTabStyle.VS2008">
+            <summary>
+            Specifies a VS2008-like tab style.
+            </summary>
+        </member>
+        <member name="F:MindFusion.UI.WinForms.DocumentTabStyle.Simple">
+            <summary>
+            Specifies a simpler rectangular tab style.
+            </summary>
+        </member>
+        <member name="T:MindFusion.UI.WinForms.Button">
+            <summary>
+            Represents a custom-drawn button.
+            </summary>
+        </member>
+        <member name="M:MindFusion.UI.WinForms.Button.#ctor">
+            <summary>
+            Initializes a new instance of the Button class.
+            </summary>
+        </member>
+        <member name="M:MindFusion.UI.WinForms.Button.Dispose(System.Boolean)">
+            <summary>
+            Control.Dispose override.
+            </summary>
+        </member>
+        <member name="M:MindFusion.UI.WinForms.Button.OnPaint(System.Windows.Forms.PaintEventArgs)">
+            <summary>
+            Control.OnPaint override.
+            </summary>
+        </member>
+        <member name="M:MindFusion.UI.WinForms.Button.OnMouseDown(System.Windows.Forms.MouseEventArgs)">
+            <summary>
+            Control.OnMouseDown override.
+            </summary>
+        </member>
+        <member name="M:MindFusion.UI.WinForms.Button.OnMouseUp(System.Windows.Forms.MouseEventArgs)">
+            <summary>
+            Control.OnMouseUp override.
+            </summary>
+        </member>
+        <member name="M:MindFusion.UI.WinForms.Button.OnMouseEnter(System.EventArgs)">
+            <summary>
+            Control.OnMouseEnter override.
+            </summary>
+        </member>
+        <member name="M:MindFusion.UI.WinForms.Button.OnMouseLeave(System.EventArgs)">
+            <summary>
+            Control.OnMouseLeave override.
+            </summary>
+        </member>
+        <member name="M:MindFusion.UI.WinForms.Button.FromAlignment(System.Drawing.ContentAlignment)">
+            <summary>
+            Returns the image alignment corresponding to the specified content alignment.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.WinForms.Button.Image">
+            <summary>
+            Gets or sets the image that is displayed on a button control.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.WinForms.Button.ImageAlign">
+            <summary>
+            Gets or sets the alignment of the image in the button control.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.WinForms.Button.FocusPadding">
+            <summary>
+            Gets or sets the offset of the focus frame relative to the control border.
+            </summary>
+        </member>
+        <member name="T:MindFusion.UI.WinForms.RangeSelector">
+            <summary>
+            Represents a range selector - a control which allows the users to
+            interactively select a range inside a larger range.
+            </summary>
+        </member>
+        <member name="M:MindFusion.UI.WinForms.RangeSelector.#ctor">
+            <summary>
+            Initializes a new instance of the RangeSelector class.
+            </summary>
+        </member>
+        <member name="M:MindFusion.UI.WinForms.RangeSelector.OnPaint(System.Windows.Forms.PaintEventArgs)">
+            <summary>
+            Control.OnPaint override.
+            </summary>
+        </member>
+        <member name="M:MindFusion.UI.WinForms.RangeSelector.UpdateLayout">
+            <summary>
+            Updates the layout.
+            </summary>
+        </member>
+        <member name="M:MindFusion.UI.WinForms.RangeSelector.OnResize(System.EventArgs)">
+            <summary>
+            Control.OnResize override.
+            </summary>
+        </member>
+        <member name="M:MindFusion.UI.WinForms.RangeSelector.OnMouseDown(System.Windows.Forms.MouseEventArgs)">
+            <summary>
+            Control.OnMouseDown override.
+            </summary>
+        </member>
+        <member name="M:MindFusion.UI.WinForms.RangeSelector.OnMouseMove(System.Windows.Forms.MouseEventArgs)">
+            <summary>
+            Control.OnMouseMove override.
+            </summary>
+        </member>
+        <member name="M:MindFusion.UI.WinForms.RangeSelector.OnMouseUp(System.Windows.Forms.MouseEventArgs)">
+            <summary>
+            Control.OnMouseUp override.
+            </summary>
+        </member>
+        <member name="M:MindFusion.UI.WinForms.RangeSelector.SmallDecrement">
+            <summary>
+            Performs a small decrement. Raises the appropriate event.
+            </summary>
+        </member>
+        <member name="M:MindFusion.UI.WinForms.RangeSelector.SmallIncrement">
+            <summary>
+            Performs a small increment. Raises the appropriate event.
+            </summary>
+        </member>
+        <member name="M:MindFusion.UI.WinForms.RangeSelector.OnValueChanged(System.EventArgs)">
+            <summary>
+            Raises the ValueChanged event.
+            </summary>
+        </member>
+        <member name="M:MindFusion.UI.WinForms.RangeSelector.OnDrawBackground(MindFusion.UI.WinForms.DrawEventArgs)">
+            <summary>
+            Raises the DrawBackground event.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.WinForms.RangeSelector.Minimum">
+            <summary>
+            Gets or sets the minimum of the control range.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.WinForms.RangeSelector.Maximum">
+            <summary>
+            Gets or sets the maximum of the control range.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.WinForms.RangeSelector.SelectionStart">
+            <summary>
+            Gets or sets the start of the selected range.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.WinForms.RangeSelector.SelectionEnd">
+            <summary>
+            Gets or sets the end of the selected range.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.WinForms.RangeSelector.MinimumSelectionLength">
+            <summary>
+            Gets or sets the minimum size of the selected range.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.WinForms.RangeSelector.Step">
+            <summary>
+            Gets or sets the step to scroll with when using the buttons.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.WinForms.RangeSelector.ButtonSize">
+            <summary>
+            Gets or sets the size of the buttons.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.WinForms.RangeSelector.Width">
+            <summary>
+            Gets or sets the width of the range selector.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.WinForms.RangeSelector.Height">
+            <summary>
+            Gets or sets the height of the range selector.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.WinForms.RangeSelector.IsRightToLeft">
+            <summary>
+            Gets whether the control is right-to-left.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.WinForms.RangeSelector.BackColor">
+            <summary>
+            Gets or sets the background color for the control.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.WinForms.RangeSelector.BorderBrush">
+            <summary>
+            Gets or sets the border of the selector.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.WinForms.RangeSelector.SelectionBrush">
+            <summary>
+            Gets or sets the brush used to fill the selection.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.WinForms.RangeSelector.ProjectionBrush">
+            <summary>
+            Gets or sets the brush used to fill the selection projection.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.WinForms.RangeSelector.ScrollBackgroundBrush">
+            <summary>
+            Gets or sets the brush used to fill the scroll background.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.WinForms.RangeSelector.ButtonBorderThickness">
+            <summary>
+            Gets or sets the border thickness of the selector buttons.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.WinForms.RangeSelector.ButtonBorderBrush">
+            <summary>
+            Gets or sets the brush used to draw the border of selector buttons.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.WinForms.RangeSelector.ButtonBorderBrushOver">
+            <summary>
+            Gets or sets the brush used to draw the border of selector buttons when they are pointed with the mouse.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.WinForms.RangeSelector.ButtonBorderBrushDown">
+            <summary>
+            Gets or sets the brush used to draw the border of selector buttons when they are pressed.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.WinForms.RangeSelector.ButtonBorderBrushDisabled">
+            <summary>
+            Gets or sets the border brush used to draw the border of selector buttons when the selector is disabled.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.WinForms.RangeSelector.ButtonBackgroundBrush">
+            <summary>
+            Gets or sets the brush used to fill the selector buttons when they are in normal state.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.WinForms.RangeSelector.ButtonBackgroundBrushOver">
+            <summary>
+            Gets or sets the brush used to fill the selector buttons when they are pointed with the mouse.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.WinForms.RangeSelector.ButtonBackgroundBrushDown">
+            <summary>
+            Gets or sets the brush used to fill the selector buttons when they are pressed.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.WinForms.RangeSelector.ButtonBackgroundBrushDisabled">
+            <summary>
+            Gets or sets the brush used to fill selector buttons when the selector is disabled.
+            </summary>
+        </member>
+        <member name="E:MindFusion.UI.WinForms.RangeSelector.ValueChanged">
+            <summary>
+            Occurs when the selection has changed interactively by the user.
+            </summary>
+        </member>
+        <member name="E:MindFusion.UI.WinForms.RangeSelector.DrawBackground">
+            <summary>
+            Raised to allow custom-drawing of the selector's background.
+            </summary>
+        </member>
+        <member name="T:MindFusion.UI.WinForms.ProgressBar">
+            <summary>
+            Represents a progress bar control.
+            </summary>
+        </member>
+        <member name="M:MindFusion.UI.WinForms.ProgressBar.#ctor">
+            <summary>
+            Initializes a new instance of the ProgressBar class.
+            </summary>
+        </member>
+        <member name="M:MindFusion.UI.WinForms.ProgressBar.OnPaint(System.Windows.Forms.PaintEventArgs)">
+            <summary>
+            Control.OnPaint override.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.WinForms.ProgressBar.ForegroundBrush">
+            <summary>
+            Gets or sets the brush used to draw the progress bar text.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.WinForms.ProgressBar.ForegroundBrushHighlighted">
+            <summary>
+            Gets or sets the brush used to draw the progress bar text when it is highlighted.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.WinForms.ProgressBar.ForegroundBrushDisabled">
+            <summary>
+            Gets or sets the brush used to draw the progress bar text when it is disabled.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.WinForms.ProgressBar.BackgroundBrush">
+            <summary>
+            Gets or sets the brush used to fill the progress bar.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.WinForms.ProgressBar.BackgroundBrushDisabled">
+            <summary>
+            Gets or sets the brush used to fill the progress bar when it is disabled.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.WinForms.ProgressBar.HighlightBrush">
+            <summary>
+            Gets or sets the brush used to fill the progress.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.WinForms.ProgressBar.HighlightBrushDisabled">
+            <summary>
+            Gets or sets the brush used to fill the progress when the progress bar is disabled.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.WinForms.ProgressBar.BorderBrush">
+            <summary>
+            Gets or sets the brush used to draw the progress bar border.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.WinForms.ProgressBar.BorderBrushDisabled">
+            <summary>
+            Gets or sets the brush used to draw the progress bar border when the progress bar is disabled.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.WinForms.ProgressBar.BorderThickness">
+            <summary>
+            Gets or sets the thickness of the progress bar border.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.WinForms.ProgressBar.TextAlign">
+            <summary>
+            Gets or sets the alignment of the text in the button control.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.WinForms.ProgressBar.Value">
+            <summary>
+            Gets or sets the value displayed in the progress bar.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.WinForms.ProgressBar.Minimum">
+            <summary>
+            Gets or sets the minimum value of the progress bar.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.WinForms.ProgressBar.Maximum">
+            <summary>
+            Gets or sets the maximum value of the progress bar.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.WinForms.ProgressBar.Format">
+            <summary>
+            Gets or sets the formatting string. This is a regular composite format string where 0 represents
+            the percentage of the current progress, 1 represents the absolute progress value, 2 represents
+            the minimum and 3 represents the maximum.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.WinForms.ProgressBar.Text">
+            <summary>
+            This property has no effect.
+            </summary>
+        </member>
+        <member name="T:MindFusion.UI.WinForms.ProgressBarState">
+            <summary>
+            For internal use.
+            </summary>
+        </member>
+        <member name="M:MindFusion.UI.WinForms.ProgressBarState.GetEffectiveHighlightBrush(System.Drawing.Rectangle)">
+            <summary>
+            For internal use.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.WinForms.ProgressBarState.ForegroundBrushHighlighted">
+            <summary>
+            For internal use.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.WinForms.ProgressBarState.HighlightBrush">
+            <summary>
+            For internal use.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.WinForms.ProgressBarState.HighlightBrushDisabled">
+            <summary>
+            For internal use.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.WinForms.ProgressBarState.PercentValue">
+            <summary>
+            For internal use.
+            </summary>
+        </member>
+        <member name="T:MindFusion.UI.WinForms.ProgressBarRenderer">
+            <summary>
+            For internal use.
+            </summary>
+        </member>
+        <member name="M:MindFusion.UI.WinForms.ProgressBarRenderer.Render(System.Drawing.Graphics,System.Drawing.Rectangle,MindFusion.UI.WinForms.ProgressBarState)">
+            <summary>
+            For internal use.
+            </summary>
+        </member>
+        <member name="T:MindFusion.Drawing.ImagePainter">
+            <summary>
+            Provides advanced methods for drawing images.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Drawing.ImagePainter.#ctor">
+            <summary>
+            Prevent instantiation.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Drawing.ImagePainter.Draw(MindFusion.Drawing.IGraphics,System.Drawing.Image,System.Drawing.Rectangle,MindFusion.Drawing.ImageAlignment)">
+            <summary>
+            Draws the specified image in the target rectangle
+            in the specified graphics using the specified image alignment.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Drawing.ImagePainter.Draw(MindFusion.Drawing.IGraphics,System.Drawing.Image,System.Drawing.RectangleF,MindFusion.Drawing.ImageAlignment)">
+            <summary>
+            Draws the specified image in the target rectangle
+            in the specified graphics using the specified image alignment.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Drawing.ImagePainter.Draw(MindFusion.Drawing.IGraphics,System.Drawing.Image,System.Drawing.Rectangle,MindFusion.Drawing.ImageAlignment,System.Int32)">
+            <summary>
+            Draws the specified image in the target rectangle
+            in the specified graphics using the specified image
+            alignment and semitransparency factor. The transparency
+            ranges from 0 (invisible) to 255 (opaque).
+            </summary>
+        </member>
+        <member name="M:MindFusion.Drawing.ImagePainter.Draw(MindFusion.Drawing.IGraphics,System.Drawing.Image,System.Drawing.RectangleF,MindFusion.Drawing.ImageAlignment,System.Int32)">
+            <summary>
+            Draws the specified image in the target rectangle
+            in the specified graphics using the specified image
+            alignment and semitransparency factor. The transparency
+            ranges from 0 (invisible) to 255 (opaque).
+            </summary>
+        </member>
+        <member name="M:MindFusion.Drawing.ImagePainter.Draw(MindFusion.Drawing.IGraphics,System.Drawing.Image,System.Drawing.RectangleF,MindFusion.Drawing.ImageAlignment,System.Int32,System.Boolean)">
+            <summary>
+            Internal worker method.
+            </summary>
+        </member>
+        <member name="M:MindFusion.UI.WinForms.DockWindow.#ctor(MindFusion.UI.WinForms.DockControl)">
+            <summary>
+            Creates instance of DockWindow class
+            </summary>
+        </member>
+        <member name="T:MindFusion.UI.WinForms.DockItem">
+            <summary>
+            Enables items docking in a DockControl.
+            </summary>
+        </member>
+        <member name="M:MindFusion.UI.WinForms.DockItem.#ctor">
+            <summary>
+            Initializes a new instance of the DockItem class.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.WinForms.DockItem.Header">
+            <summary>
+            Gets or sets the header text of the item.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.WinForms.DockItem.Content">
+            <summary>
+            Gets or sets the content of the item.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.WinForms.DockItem.Icon">
+            <summary>
+            Gets or sets the icon, displayed next to the header of the item.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.WinForms.DockItem.IconSize">
+            <summary>
+            Gets or sets the size ot the icon.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.WinForms.DockItem.HeaderPadding">
+            <summary>
+            Gets or sets the padding of the header text.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.WinForms.DockItem.DockStyle">
+            <summary>
+            Gets or sets the dock location of the item.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.WinForms.DockItem.Size">
+            <summary>
+            Gets or sets the size of the item.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.WinForms.DockItem.ContentId">
+            <summary>
+            Gets or sets a unique identifier for the item.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.WinForms.DockItem.Id">
+            <summary>
+            Gets or sets a unique identifier for the item.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.WinForms.DockItem.DockParent">
+            <summary>
+            Gets or sets the dock item to use as a parent when this item is added to the DockControl.
+            If this property is not set, the DockControl itself is used as a parent.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.WinForms.DockItem.Tag">
+            <summary>
+            Gets or sets a user-associated value with the item.
+            </summary>
+        </member>
+    </members>
+</doc>
